@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Papo de Dev`,
-    description: `Um blog sobre o mundo da tecnolgia,carreira e desenvovimento de software. Um papo de Dev para Dev!`,
-    author: `@gatsbyjs`,
+    position: `Engenheiro de sofware Front end`,
+    description: `Escrevo sobre o mundo da tecnologia,carreira e desenvovimento de software. Um papo de Dev para Dev!`,
+    author: `Matheus Benites`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
