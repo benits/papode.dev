@@ -1,9 +1,9 @@
 import { Github } from "@styled-icons/boxicons-logos/Github"
-import { LinkedinSquare } from "@styled-icons/boxicons-logos/LinkedinSquare"
+import { LinkedinSquare as Linkedin } from "@styled-icons/boxicons-logos/LinkedinSquare"
 
 const Icons = {
   Github,
-  LinkedinSquare,
+  Linkedin,
 }
 
 export default Icons
