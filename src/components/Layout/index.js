@@ -1,15 +1,19 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Profile from "./Profile"
+import Profile from "../Profile"
+
+import * as S from "./styled"
+import GlobalStyles from "../../styles/global"
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <S.LayoutWrapper>
+      <GlobalStyles />
       <aside>
         <Profile />
       </aside>
-      <main>{children}</main>
-    </>
+      <S.LayoutMain>{children}</S.LayoutMain>
+    </S.LayoutWrapper>
   )
 }
 
