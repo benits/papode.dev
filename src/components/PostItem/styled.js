@@ -53,3 +53,6 @@ export const PostItemDescription = styled.p`
   font-weight: 300;
   line-height: 1.2;
 `
+export const PostItemAuthor = styled.small`
+  font-weight: bold;
+`
