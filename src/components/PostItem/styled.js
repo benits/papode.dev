@@ -2,27 +2,40 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 export const PostItemLink = styled(Link)`
-  color: #8899a6;
+  color: var(--texts);
   display: flex;
   text-decoration: none;
+
+  body#grid & {
+    background-color: var(--background);
+  }
+
   &:hover {
-    color: #1fa1f2;
+    color: var(--highlight);
   }
 `
 
 export const PostItemWrapper = styled.section`
   align-items: center;
-  border-bottom: 1px solid #38444d;
+  border-bottom: 1px solid var(--borders);
   display: flex;
   padding: 2rem 3rem;
   width: 100%;
+
+  body#grid & {
+    border: none;
+    padding: 2rem 1rem;
+    flex-direction: column;
+    justify-content: center;
+  }
 `
 
 export const PostItemTag = styled.div`
   align-items: center;
-  background: ${props => (props.background ? props.background : "#1fa1f2")};
+  background: ${props =>
+    props.background ? props.background : "var(--highlight)"};
   border-radius: 50%;
-  color: #fff;
+  color: var(--white);
   display: flex;
   font-size: 1.3rem;
   font-weight: 700;
@@ -30,6 +43,10 @@ export const PostItemTag = styled.div`
   min-height: 90px;
   min-width: 90px;
   text-transform: uppercase;
+
+  body#grid & {
+    margin-bottom: 1.5rem;
+  }
 `
 
 export const PostItemInfo = styled.div`
@@ -46,6 +63,12 @@ export const PostItemTitle = styled.h1`
   font-size: 1.6rem;
   font-weight: 700;
   margin: 0.2rem 0 0.5rem;
+  color: var(--postColor);
+
+  body#grid & {
+    line-height: 1.1;
+    margin: 0.8rem 0;
+  }
 `
 
 export const PostItemDescription = styled.p`
