@@ -11,12 +11,12 @@ import * as S from "./styled"
 const MenuBar = () => (
   <S.MenuBarWrapper>
     <S.MenuBarGroup>
-      <S.MenuBarLink to="/" title="Voltar para Home">
+      <S.MenuBarLink activeClassName="active" to="/" title="Voltar para Home">
         <S.MenuBarItem>
           <Home />
         </S.MenuBarItem>
       </S.MenuBarLink>
-      <S.MenuBarLink to="/search" title="Pesquisar">
+      <S.MenuBarLink activeClassName="active" to="/search" title="Pesquisar">
         <S.MenuBarItem>
           <Search />
         </S.MenuBarItem>

@@ -17,6 +17,10 @@ export const MenuBarWrapper = styled.aside`
 export const MenuBarGroup = styled.div`
   display: flex;
   flex-direction: column;
+
+  .active span svg {
+    fill: #1fa1f2;
+  }
 `
 export const MenuBarLink = styled(Link)`
   display: block;
