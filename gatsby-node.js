@@ -43,18 +43,36 @@ exports.createPages = ({ graphql, actions }) => {
             }
             timeToRead
           }
+          next {
+            frontmatter {
+              title
+            }
+            fields {
+              slug
+            }
+          }
+          previous {
+            frontmatter {
+              title
+            }
+            fields {
+              slug
+            }
+          }
         }
       }
     }
   `).then(result => {
     const posts = result.data.allMarkdownRemark.edges
 
-    posts.forEach(({ node }) => {
+    posts.forEach(({ node, next, previous }) => {
       createPage({
         path: node.fields.slug,
         component: path.resolve("./src/templates/blog-post.js"),
         context: {
           slug: node.fields.slug,
+          previousPost: next,
+          nextPost: previous,
         },
       })
     })
