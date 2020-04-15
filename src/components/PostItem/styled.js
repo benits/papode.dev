@@ -1,11 +1,12 @@
 import styled from "styled-components"
 import media from "styled-media-query"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
-export const PostItemLink = styled(Link)`
+export const PostItemLink = styled(AniLink)`
   color: var(--texts);
   display: flex;
   text-decoration: none;
+  transition: all 0.2s ease-in-out;
 
   body#grid & {
     background-color: var(--background);
@@ -13,16 +14,20 @@ export const PostItemLink = styled(Link)`
 
   &:hover {
     color: var(--highlight);
-    box-shadow: 0 0 6px #000;
+    box-shadow: 0 0 10px var(--shadow);
   }
 `
 
 export const PostItemWrapper = styled.section`
   align-items: center;
-  border-bottom: 1px solid var(--borders);
+
   display: flex;
   padding: 2rem 3rem;
   width: 100%;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.006);
+  }
 
   body#grid & {
     border: none;

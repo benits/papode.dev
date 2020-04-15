@@ -13,7 +13,7 @@ export const SocialLinksList = styled.ul`
   align-items: center;
   display: flex;
   justify-content: center;
-  list-style: none;
+  list-style: none !important;
 `
 export const SocialLinksItem = styled.li`
   margin: 0.2rem;

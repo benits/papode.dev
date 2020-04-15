@@ -28,12 +28,28 @@ const MenuBar = () => {
   return (
     <S.MenuBarWrapper>
       <S.MenuBarGroup>
-        <S.MenuBarLink activeClassName="active" to="/" title="Voltar para Home">
+        <S.MenuBarLink
+          cover
+          direction="right"
+          duration={0.6}
+          bg="var(--background)"
+          activeClassName="active"
+          to="/"
+          title="Voltar para Home"
+        >
           <S.MenuBarItem>
             <Home />
           </S.MenuBarItem>
         </S.MenuBarLink>
-        <S.MenuBarLink activeClassName="active" to="/search" title="Pesquisar">
+        <S.MenuBarLink
+          cover
+          direction="right"
+          duration={0.6}
+          bg="var(--background)"
+          activeClassName="active"
+          to="/search"
+          title="Pesquisar"
+        >
           <S.MenuBarItem>
             <Search />
           </S.MenuBarItem>

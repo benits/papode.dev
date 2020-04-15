@@ -52,7 +52,8 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    background: #16202c;
+    transition: all 0.2s ease-in-out;
+    background: var(--background);
     line-height: 1;
     font-size: 100%;
     font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -73,6 +74,8 @@ const GlobalStyles = createGlobalStyle`
     --background: #16202c;
     --white: #fff;
     --black: #222;
+    --shadow: #ffffff30;
+  
   }
   body.light {
     --borders: #dedede;
@@ -83,6 +86,7 @@ const GlobalStyles = createGlobalStyle`
     --background: #fff;
     --white: #fff;
     --black: #222;
+    --shadow: #00000038;
   }
 `
 export default GlobalStyles
