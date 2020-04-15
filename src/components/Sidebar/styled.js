@@ -16,7 +16,7 @@ export const SiderbarWrapper = styled.aside`
   ${media.lessThan("large")`
    align-items: flex-start;
    height: auto;
-   padding: 1rem 2rem;
+   padding: 1rem 0.5rem;
    width: 100%
   `}
 `
