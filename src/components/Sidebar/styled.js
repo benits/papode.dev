@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const SiderbarWrapper = styled.aside`
   align-items: center;
@@ -11,4 +12,11 @@ export const SiderbarWrapper = styled.aside`
   padding: 1rem;
   text-align: center;
   width: 20rem;
+
+  ${media.lessThan("large")`
+   align-items: flex-start;
+   height: auto;
+   padding: 1rem 2rem;
+   width: 100%
+  `}
 `

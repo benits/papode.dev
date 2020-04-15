@@ -12,6 +12,7 @@ export const PostItemLink = styled(Link)`
 
   &:hover {
     color: var(--highlight);
+    box-shadow: 0 0 6px #000;
   }
 `
 
