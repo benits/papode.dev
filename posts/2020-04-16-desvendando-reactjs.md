@@ -7,8 +7,6 @@ thumbnail: assets/img/1_fxa6ojfh2lrd7enaczicqg-1-780x439.png
 category: ReactJs
 background: "#B31917"
 ---
-![](assets/img/1_fxa6ojfh2lrd7enaczicqg-1-780x439.png)
-
 Fala Dev, hoje vamos conhecer um pouco mais do **React.js**, que ao contrario do que muitos pensam, não é um **Framework** sim uma biblioteca **JavaScript.**
 
 Desde seu lançamento essa **lib JS** vem tendo um crescimento exponencial, claro que o fato de o Facebook ter criado ela, ajudou com esse crescimento, muitos até chamaram o **React.Js** de “Moda Jovem”, ou seja, algo passageiro, pela velocidade que crescia e a força que ganhava pelo fato de ser **Código Aberto**\
