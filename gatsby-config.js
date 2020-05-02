@@ -75,6 +75,21 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: `UA-165367744-1`,
+        head: true,
+        anonymize: true,
+        respectDNT: true,
+        pageTransitionDelay: 0,
+        defer: true,
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "papode.dev",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint:
+          "https://devjedi.us7.list-manage.com/subscribe/post?u=fd145b8cfd95d2e6bc510367d&amp;id=9f4735c213",
       },
     },
     {
@@ -83,7 +98,7 @@ module.exports = {
         // Setting a color is optional.
         color: `rgba(238,63,255,1)`,
         // Disable the loading spinner.
-        showSpinner: false,
+        showSpinner: true,
       },
     },
     {
