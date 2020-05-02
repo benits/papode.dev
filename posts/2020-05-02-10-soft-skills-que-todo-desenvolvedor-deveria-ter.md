@@ -4,12 +4,12 @@ description: Fala jovem, Tudo bem contigo? espero que sim, nesse artigo vou
   falar um pouco sobre as Soft Skills que minha carreira pediu até agora, neste
   artigo vou listar algumas soft skills que na minha opinião é quase tão
   importante quanto as nossas Hard Skills como Dev.
-date: 2020-05-02 02:17:27
+date: 2020-05-02T02:17:27.000Z
 thumbnail: assets/img/0.jpg
 category: Career
 background: "#cb00ef"
 ---
-De acordo com o [Oxford Dictionary](https://www.lexico.com/definition/soft_skills), Soft Skills Significa:
+De acordo com o[Oxford Dictionary](https://www.lexico.com/definition/soft_skills), Soft Skills Significa:
 
 > Atributos pessoais que permitem que alguém interaja de maneira eficaz e harmoniosa com outras pessoas.
 
@@ -21,9 +21,7 @@ Lembrando que essa lista, são Soft Skills que minha carreira precisou, se você
 
 Ser capaz de simpatizar com sua equipe permite entender completamente os problemas que eles enfrentam e encontrar uma maneira de fazer seu projeto funcionar para todos, onde tenham chegado a um consenso, isso é importante em um ambiente organizado em #TIMES.
 
-Sugerir novas idéias é muito mais fácil quando há um entendimento entre os membros de uma equipe de que não haverá nenhum feedback negativo ou zombaria, não importa como alguém se sinta em relação a uma ideia, lembre-se **"TODA IDEIA É VALIDA"** 
-
-até que se provem o contrário.
+Sugerir novas idéias é muito mais fácil quando há um entendimento entre os membros de uma equipe de que não haverá nenhum feedback negativo ou zombaria, não importa como alguém se sinta em relação a uma ideia, lembre-se**"TODA IDEIA É VALIDA"**até que se provem o contrário.
 
 A empatia nos permite prever como é provável que outras pessoas reajam ao que dizemos, o que significa que podemos personalizar a forma como falamos para o nosso público.
 
@@ -33,9 +31,7 @@ A empatia com o usuário, enquanto isso, permite que você veja as coisas do pon
 
 A tomada de decisão deve ter mais do que preferência pessoal, deve ser baseada em **DADOS**.
 
-![empathy](assets/img/0.gif "empathy")
-
-
+![Não foi fornecido texto alternativo para esta imagem](https://media-exp1.licdn.com/dms/image/C4E12AQHgh5CVbngzvQ/article-inline_image-shrink_1000_1488/0?e=1593648000&v=beta&t=zxtu9wSU4Qoxkiemx1zS7b4qjNp0CiLKb-fSpLvF6ko)
 
 ### **\#2 - Comunicação**
 
@@ -49,7 +45,7 @@ Lembre-se de algumas coisas para se comunicar de maneira eficaz:
 * **Escute.** Os melhores comunicadores passam tanto tempo ouvindo quanto conversando.
 * **Não interrompa** a pessoa falando. Deixe que eles digam o que querem dizer, depois fale com seus pensamentos.
 
-![Comunicação](assets/img/0-1-.gif "Comunicação")
+![Não foi fornecido texto alternativo para esta imagem](https://media-exp1.licdn.com/dms/image/C4E12AQE5uEp1oM4tfA/article-inline_image-shrink_1000_1488/0?e=1593648000&v=beta&t=40-9-Wlacp84bwhgg0AekcJ-RumWCYPXU1VD-hoMDfo)
 
 ### **\#3 - Trabalhe em Equipe(#Team)**
 
@@ -63,7 +59,7 @@ Trabalhar bem com outras pessoas torna o que você está trabalhando mais divert
 
 Você nem sempre concorda com as pessoas da sua equipe, mas ter pontos de vista diferentes ajuda a criar empresas bem-sucedidas.
 
-![Trabalhe em Equipe](assets/img/0-2-.gif "Trabalhe em Equipe")
+![Não foi fornecido texto alternativo para esta imagem](https://media-exp1.licdn.com/dms/image/C4E12AQH5LHCvy_5yIw/article-inline_image-shrink_1000_1488/0?e=1593648000&v=beta&t=7lQqlGWNjPA-at44s1HkC5tE4bUMJZstreJBD6NLmBY)
 
 ### \#4 - Acessibilidade e Prestação
 
@@ -77,7 +73,7 @@ Se você pode estabelecer um relacionamento com as pessoas, é mais provável qu
 
 Deixe claro para as pessoas quando você não tiver tempo para se comunicar colocando fones de ouvido quando estiver ocupado e se colocando offline no bate-papo da empresa. Se alguém ainda se aproximar de você, marque um horário para se reunir para discutir as coisas, Sempre mantendo e preservando a **BOA Educação**.
 
-![Acessibilidade e Prestação](assets/img/0-3-.gif "Acessibilidade e Prestação")
+![Não foi fornecido texto alternativo para esta imagem](https://media-exp1.licdn.com/dms/image/C4E12AQE0Fq0azo2bCw/article-inline_image-shrink_1000_1488/0?e=1593648000&v=beta&t=RzIYbyTMbZPacmlfSd8Cksc_H3zeSCoyy8zDP7V4cHg)
 
 ### \#5 - Paciência
 
@@ -85,7 +81,7 @@ Deixe claro para as pessoas quando você não tiver tempo para se comunicar colo
 
 Nem todo mundo entende o quão difícil é a programação ou quanto tempo se leva para escrever o código. Eles podem pedir que você faça algo sem perceber o escopo do que eles estão pedindo. Isso pode levar à frustração. Tome seu tempo para explicar por que não é tão simples quanto eles pensam e para responder a quaisquer perguntas que eles tenham. Depois de reservar um tempo para fazer isso, as sessões futuras ficarão muito mais fáceis!
 
-![Paciência](assets/img/0-4-.gif "Paciência")
+![Não foi fornecido texto alternativo para esta imagem](https://media-exp1.licdn.com/dms/image/C4E12AQHOwpnPaSUfGQ/article-inline_image-shrink_1000_1488/0?e=1593648000&v=beta&t=3Ib2_Hycc___RUO9P6xJzip360n4FNz3m9C5sY0sjXY)
 
 ### \#6 - Mente Aberta
 
@@ -99,7 +95,7 @@ Embora nem todas as idéias que você tenha se transformem em algo, você não s
 
 Mantenha sua mente aberta para novas idéias, não apenas da sua equipe, mas do resto da empresa e até dos clientes. Os clientes são os que usam o seu produto, por isso são as melhores pessoas para lhe dizer o que funciona e o que eles precisam.
 
-![Mente Aberta](assets/img/0-5-.gif "Mente Aberta")
+![Não foi fornecido texto alternativo para esta imagem](https://media-exp1.licdn.com/dms/image/C4E12AQHM5ScAipXd7A/article-inline_image-shrink_1000_1488/0?e=1593648000&v=beta&t=xOCZV9DYd8cuD6heUKS6OAoK22opmmpXIG3KmKCp-3c)
 
 ### \#7 - Resolução de Problemas
 
@@ -115,9 +111,9 @@ Também é importante lembrar que, se você causou o problema ou não, não prec
 
 Use e abuse do network que você construiu, das comunidades, dos integrantes do time que participar. pois assim você elimina tempo, e tempo é dinheiro.
 
-> Não tenha medo de pedir **AJUDA!**
+> Não tenha medo de pedir**AJUDA!**
 
-![Resolução de Problemas](assets/img/0-6-.gif "Resolução de Problemas")
+![Não foi fornecido texto alternativo para esta imagem](https://media-exp1.licdn.com/dms/image/C4E12AQFj-ga1sec_Yg/article-inline_image-shrink_1000_1488/0?e=1593648000&v=beta&t=61TT5MoBtIadiO1Mo2qAmZ0cccsdFxFLPSr7Bfypiic)
 
 ### **\#8 -**Responsabilidade
 
@@ -129,7 +125,7 @@ Quando você se esconde dos seus erros, há todas as chances de você ou um de s
 
 Aproveite a oportunidade para analisar o que deu errado, depois use esses dados para corrigir o problema e ensine a você e seus colegas como evitar erros semelhantes.
 
-> é igual aquele ditado, errar é humano, mas persistir no erro é **"BURRICE".**
+> é igual aquele ditado, errar é humano, mas persistir no erro é**"BURRICE".**
 
 ### \#9 - Criatividade
 
@@ -139,7 +135,7 @@ Apesar da opinião popular, a criatividade pode ser aprendida, mas vem com a pr�
 
 Ler ficção, escrever, arte, artesanato e até cozinhar são maneiras de explorar a criatividade. Quanto mais maneiras de criatividade você explorar, mais fácil será encontrar maneiras diferentes de abordar o mesmo problema.
 
-![Criatividade](assets/img/0-7-.gif "Criatividade")
+![Não foi fornecido texto alternativo para esta imagem](https://media-exp1.licdn.com/dms/image/C4E12AQHsX4ZVEtXbuQ/article-inline_image-shrink_1000_1488/0?e=1593648000&v=beta&t=a2Ni0bZduXeLGTLF8-U4KuLGoJlR51o3LXxpuIZfWm0)
 
 ### \#10 - Gerenciamento de Tempo (MAIS IMPORTANTE!)
 
@@ -159,10 +155,10 @@ Não prestar atenção total a algo significa que as tarefas levam mais tempo pa
 
 Se você costuma realizar várias tarefas ao mesmo tempo, priorize sua lista de tarefas e use uma das técnicas mencionadas acima para ajudá-lo a se concentrar. Você ficará surpreso com o quanto mais rápido você faz as coisas quando elas têm toda a sua atenção!
 
-![Gerenciamento de Tempo](assets/img/0-8-.gif "Gerenciamento de Tempo")
+![Não foi fornecido texto alternativo para esta imagem](https://media-exp1.licdn.com/dms/image/C4E12AQH3nQyxwbGKEg/article-inline_image-shrink_1000_1488/0?e=1593648000&v=beta&t=55PRYi-7FVNKIA64-GD4cychQZ6fROBzV44aY_fOHZI)
 
 Bom, foi isso. Espero que tenham gostado, comentem aqui em baixo o que acharam desse artigo, se gostaram ou não e deixem suas opiniões, ela é muito importante pra mim.
 
 ### Quais habilidades sociais o ajudam mais como desenvolvedor?
 
-> COMENTA AÍ.
+> COMENTA AÍ
