@@ -7,7 +7,6 @@ thumbnail: assets/img/1_fxa6ojfh2lrd7enaczicqg-1-780x439.png
 category: ReactJs
 background: "#B31917"
 ---
-Fala Dev, hoje vamos conhecer um pouco mais do **React.js**, que ao contrario do que muitos pensam, não é um **Framework** sim uma biblioteca **JavaScript.**
 
 Desde seu lançamento essa **lib JS** vem tendo um crescimento exponencial, claro que o fato de o Facebook ter criado ela, ajudou com esse crescimento, muitos até chamaram o **React.Js** de “Moda Jovem”, ou seja, algo passageiro, pela velocidade que crescia e a força que ganhava pelo fato de ser **Código Aberto**\
 \
@@ -23,13 +22,13 @@ Poderíamos encerrar por aqui esta explicação caro Dev, porém o **React** é 
 
 Esse Ecossistema é formado por:
 
-* **React**
-* **JSX**
-* **ES6/7**
-* **Webpack**
-* **Flux/Redux/Hooks**
-* **axios/fetch**
-* **Jest/Mocha**
+- **React**
+- **JSX**
+- **ES6/7**
+- **Webpack**
+- **Flux/Redux/Hooks**
+- **axios/fetch**
+- **Jest/Mocha**
 
 ### Mas, Como o React Funciona?
 
@@ -53,11 +52,11 @@ Imagine trabalhar toda essa interface em um único arquivo, seria algo inviável
 
 Nesse conceito a ideia é a reutilização de código, e facilitar a manutenção dele no futuro.
 
-E para isso uma das praticas mais comuns é a **componentização** ou **modularização** do código, que é nada mais do que dividir o código em partes menores que podem ser reutilizada e evoluídas separadamente, para que caso eu tenha que alterar uma parte da aplicação, isso não altere a outra. 
+E para isso uma das praticas mais comuns é a **componentização** ou **modularização** do código, que é nada mais do que dividir o código em partes menores que podem ser reutilizada e evoluídas separadamente, para que caso eu tenha que alterar uma parte da aplicação, isso não altere a outra.
 
 ## **JSX**
 
-Explicando de maneira bem superficial, o **JSX** é uma extensão de sintaxe do JavaScript (daí o nome, **J**avaScript **S**yntax e**X**tension) que nos permite escrever **HTML** dentro do  **JavaScript**.
+Explicando de maneira bem superficial, o **JSX** é uma extensão de sintaxe do JavaScript (daí o nome, **J**avaScript **S**yntax e**X**tension) que nos permite escrever **HTML** dentro do **JavaScript**.
 
 O **JSX** era um dos motivos das criticas e piadas em relação ao **React**, segundo os críticos estávamos regredindo no tempo ao misturarmos **HTML** com **JavaScript**.
 
