@@ -7,7 +7,7 @@ import * as S from "./styled"
 const Profile = () => {
   const {
     site: {
-      siteMetadata: { title, position, description, author },
+      siteMetadata: { position, description, author },
     },
   } = useStaticQuery(graphql`
     query MyQuery {
@@ -24,7 +24,9 @@ const Profile = () => {
 
   return (
     <S.ProfileWrapper>
-      <S.ProfileTitle>{title}</S.ProfileTitle>
+      <S.ProfileTitle>
+        <S.Logo />
+      </S.ProfileTitle>
       <S.ProfileLink
         cover
         direction="left"
