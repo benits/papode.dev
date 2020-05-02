@@ -968,6 +968,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.9.2":
+  version "7.9.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.9.6.tgz#a9102eb5cadedf3f31d08a9ecf294af7827ea29f"
+  integrity sha512-64AF1xY3OAkFHqOb9s4jpgk1Mm5vDZ4L3acHvAml+53nO1XbXLuDodsVpO4OIUsmemlUHMxNdYMNJmsvOwLrvQ==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.8.3", "@babel/template@^7.8.6":
   version "7.8.6"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.8.6.tgz#86b22af15f828dfb086474f964dcc3e39c43ce2b"
@@ -6741,6 +6748,14 @@ gatsby-plugin-algolia-search@0.5.0:
     gatsby-cli "^1.1.58"
     lodash.chunk "^4.2.0"
 
+gatsby-plugin-google-analytics@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.3.0.tgz#d5258606117abd6bded2a678ba9f7661b370e72f"
+  integrity sha512-ekXMjLpkoRT6eYC8eOEOhSDLsSBPBsZ6JQydvcmDqy/cCgc+B66icPlqd4G/Lst13Ede2z2cOMuntEsEXf6CvA==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+    minimatch "3.0.4"
+
 gatsby-plugin-manifest@^2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.3.3.tgz#119b9e648428a0db8979d577d2fdb20a9f3c18b7"
@@ -6765,6 +6780,14 @@ gatsby-plugin-netlify-cms@^4.2.2:
     mini-css-extract-plugin "^0.8.2"
     netlify-identity-widget "^1.5.6"
     webpack "^4.42.0"
+
+gatsby-plugin-nprogress@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-nprogress/-/gatsby-plugin-nprogress-2.3.0.tgz#b3b0183d9370cc388b0f582fef39644ad813a4ea"
+  integrity sha512-E4kVr7X0HjhjSRrfwhFGTHYwe2G2MLVKfoPN1ALzm8fVxcQysZ7bGrZKy/swosEkY2b1miegIeHROpgCRK+36Q==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+    nprogress "^0.2.0"
 
 gatsby-plugin-offline@^3.1.2:
   version "3.1.2"
@@ -10858,6 +10881,11 @@ npmlog@^4.0.1, npmlog@^4.1.2:
     console-control-strings "~1.1.0"
     gauge "~2.7.3"
     set-blocking "~2.0.0"
+
+nprogress@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/nprogress/-/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
+  integrity sha1-y480xTIT2JVyP8urkH6UIq28r7E=
 
 nth-check@^1.0.1, nth-check@^1.0.2, nth-check@~1.0.1:
   version "1.0.2"
