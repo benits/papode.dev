@@ -6,6 +6,8 @@ import SocialLinks from "../components/SocialLinks"
 import SEO from "../components/seo"
 
 import { MainContent } from "../styles/base"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+
 const AboutPage = () => (
   <Layout>
     <SEO
@@ -60,6 +62,21 @@ const AboutPage = () => (
         <li>TDD e Continuous Integration</li>
         <li>O que eu não sei, aprendo rápido =)</li>
       </ul>
+
+      <p>
+        Pode ler um pouco mais sobre a minha trajetoria nesse link{" "}
+        <AniLink
+          cover
+          direction="center"
+          duration={0.6}
+          bg="var(--background)"
+          activeClassName="active"
+          to="/minha-retrospectiva-2019"
+          title="Minha retrospectiva"
+        >
+          Minha retrospectiva
+        </AniLink>
+      </p>
 
       <h2>Contato</h2>
 
