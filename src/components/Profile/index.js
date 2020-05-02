@@ -1,6 +1,5 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-
 import Avatar from "../Avatar"
 
 import * as S from "./styled"
@@ -8,7 +7,7 @@ import * as S from "./styled"
 const Profile = () => {
   const {
     site: {
-      siteMetadata: { position, description, author },
+      siteMetadata: { title, position, description, author },
     },
   } = useStaticQuery(graphql`
     query MyQuery {
@@ -25,9 +24,7 @@ const Profile = () => {
 
   return (
     <S.ProfileWrapper>
-      <S.ProfileTitle>
-        <S.Logo />
-      </S.ProfileTitle>
+      <S.ProfileTitle>{title}</S.ProfileTitle>
       <S.ProfileLink
         cover
         direction="left"
