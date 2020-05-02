@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Papode.Dev`,
     position: `Engenheiro de Software`,
-    description: `Escrevo sobre o mundo da tecnologia,carreira e desenvovimento de software. Um papo de Dev para Dev!`,
+    description: `Escrevo sobre o mundo da Tecnologia,Carreira e Desenvolvimento de software. Um papo de Dev para Dev!`,
     author: `Matheus Benites`,
     siteUrl: `https://papode.dev`,
   },
