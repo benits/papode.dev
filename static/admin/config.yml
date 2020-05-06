@@ -2,7 +2,7 @@ backend:
   name: github
   repo: benits/papode.dev
   branch: master
-  site_domain: https://papode.dev
+  site_domain: papode.dev
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
