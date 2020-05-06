@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: https://github.com/benits/papode.dev
+  repo: benits/papode.dev
   branch: master
   site_domain: https://papode.dev
 
