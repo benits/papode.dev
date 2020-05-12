@@ -1,8 +1,8 @@
 ---
-title: Descubra sua paixão, 6 dicas para te ajudar a aprender coisas novas
-description: Neste artigo, vou trazer para você 6 dicas para te ajudar a
-  aprender qualquer coisa.
-date: 2020-05-12 11:28:19
+title: Descubra sua paixão, dicas para te ajudar a aprender coisas novas
+description: Neste artigo, vou trazer para você dicas para te ajudar a aprender
+  qualquer coisa.
+date: 2020-05-12T11:28:19.000Z
 thumbnail: assets/img/shutterstock_132485498.jpg
 category: Career
 background: "#cb00ef"
