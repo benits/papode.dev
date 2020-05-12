@@ -11,9 +11,9 @@ Antigamente os empregadores contratariam um funcionário com apenas algumas cert
 
 > "Você não precisa da faculdade para aprender coisas, a faculdade é basicamente para diversão e para provar a você mesmo que consegue fazer as suas tarefas, mas não é para aprendizado". - [Ellon Musk](https://pt.wikipedia.org/wiki/Elon_Musk)
 
-Faço as palavras de Ellon Musk as minhas palavras, você pode aprender **QUALQUER COISA SOZINHO**, a unica pessoa que pode te impedir de aprender algo é você mesmo, sua própria mente. Criando obstáculos internos. 
+Faço as palavras de Ellon Musk as minhas palavras, você pode aprender **QUALQUER COISA SOZINHO**, a unica pessoa que pode te impedir de aprender algo é você mesmo, sua própria mente criando obstáculos internos. 
 
-Na escola, você aprende o conhecimento fundamental necessário para desenvolver suas habilidades sozinho, ninguém lhe ensinará como desenvolver uma habilidade. Não se surpreenda que o seu conhecimento possa ficar obsoleto e desatualizado nos próximos anos. Sua capacidade de usar o conhecimento adquirido e a capacidade de atualizar seu conhecimento para que não fique obsoleto o ajudarão a criar seu o seu futuro!
+Na escola, você aprende o conhecimento fundamental necessário para desenvolver suas habilidades sozinho, ninguém lhe ensinará como desenvolver uma habilidade. Não se surpreenda que o seu conhecimento possa ficar obsoleto e desatualizado nos próximos anos. Sua capacidade de usar o conhecimento adquirido e a capacidade de atualizar seu conhecimento para que não fique obsoleto o ajudarão a criar o seu futuro!
 
 Listei algumas dicas fáceis para ajudá-lo a desenvolver suas habilidades e permanecer no caminho certo.
 
@@ -43,7 +43,7 @@ Sua paixão escolhida pode ser tão ampla que você precisará ser específico s
 
 Se você optar por aprender o desenvolvimento de back-end, deve ser específico da linguagem de programação que deseja aprender, não os misture!
 
-Entenda o que você realmente quer fazer. isso te dará forças para melhorar a cada dia suas habilidades.
+Entenda o que você realmente quer fazer, isso te dará forças para melhorar a cada dia suas habilidades.
 
 # 3. Não force, aprenda devagar
 
@@ -61,7 +61,7 @@ Consegue ver isso, o conhecimento vem por camadas.
 
 Você só precisa aprender um passo de cada vez!
 
-Não se cobre demais e tente aprender tudo de uma vez, vá com calma, Baby steps!, assim com calma, paciência, foco, consistência e persistência. Você chega la!
+Não se cobre demais e tente aprender tudo de uma vez, vá com calma, Baby steps! Assim com calma, paciência, foco, consistência e persistência. Você chega la!
 
 # 4. Seja imaginativo e curioso
 
