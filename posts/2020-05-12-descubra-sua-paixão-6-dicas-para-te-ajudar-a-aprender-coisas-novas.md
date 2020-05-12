@@ -15,7 +15,7 @@ Faço as palavras de Ellon Musk as minhas palavras, você pode aprender **QUALQU
 
 Na escola, você aprende o conhecimento fundamental necessário para desenvolver suas habilidades sozinho, ninguém lhe ensinará como desenvolver uma habilidade. Não se surpreenda que o seu conhecimento possa ficar obsoleto e desatualizado nos próximos anos. Sua capacidade de usar o conhecimento adquirido e a capacidade de atualizar seu conhecimento para que não fique obsoleto o ajudarão a criar seu o seu futuro!
 
-Listei seis dicas fáceis para ajudá-lo a desenvolver suas habilidades e permanecer no caminho certo.
+Listei algumas dicas fáceis para ajudá-lo a desenvolver suas habilidades e permanecer no caminho certo.
 
 Vamos começar.
 
@@ -24,8 +24,6 @@ Vamos começar.
 A paixão é muito essencial para a raça humana, alguém sem paixão é como um boneco, sem vida e sem essência. O maior presente que você pode ter é a capacidade de descobrir sua paixão na hora certa e se apegar a essa paixão.
 
 > ***Você não escolhe as suas paixões. Suas paixões escolhem você”***– [Jeff Bezos](https://pt.wikipedia.org/wiki/Jeff_Bezos).
-
-
 
 Pode ser muito difícil descobrir sua paixão, o que realmente te motiva. A paixão não é algo que você precisa fazer para sobreviver ou algo que precisa ser feito em um determinado momento - paixão é algo que você sempre quer fazer, algo que te da forças para se manter interessado sobre aquilo, algo que te motiva em essência.
 
