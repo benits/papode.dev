@@ -8,6 +8,10 @@ const links = [
     url: "/about",
   },
   {
+    label: "Gitfolio",
+    url: "/gitfolio",
+  },
+  {
     label: "Assine",
     url: "/newsletter",
   },

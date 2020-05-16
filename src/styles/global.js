@@ -57,6 +57,19 @@ const GlobalStyles = createGlobalStyle`
     line-height: 1;
     font-size: 100%;
     font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+    &::-webkit-scrollbar-track {
+    background-color: var(--mediumBackground);
+    }
+
+    &::-webkit-scrollbar {
+      width: 6px;
+      background-color: var(--mediumBackground);
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--highlight);
+    }
   }
   img {
     display: block;

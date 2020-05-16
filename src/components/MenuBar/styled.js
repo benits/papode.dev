@@ -32,6 +32,7 @@ export const MenuBarGroup = styled.div`
 
   ${media.lessThan("large")`
     flex-direction: row;
+  
   `}
 
   .active span svg {

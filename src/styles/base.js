@@ -51,6 +51,11 @@ export const MainContent = styled.section`
   ${media.lessThan("large")`
     padding: 2rem 0;
     max-width: 100%;
+
+    nav{
+        display: block;
+    }
+
   `}
   p,
   h1,

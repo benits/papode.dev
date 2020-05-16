@@ -2349,6 +2349,11 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
+animate-css-styled-components@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/animate-css-styled-components/-/animate-css-styled-components-1.0.2.tgz#0714fa22d9beac8fa09ab3d668851de6c01ad361"
+  integrity sha512-kIU1lNSJaz6kGQv5bdWGJeuBSdQsNhWV+54SXzf9CDF50lK7JwuvhrO0AJ5RjdOFwQC/rUV8oKlPznURs8xhOA==
+
 ansi-align@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ansi-align/-/ansi-align-2.0.0.tgz#c36aeccba563b89ceb556f3690f0b1d9e3547f7f"
@@ -12510,6 +12515,11 @@ re-resizable@^4.11.0:
   resolved "https://registry.yarnpkg.com/re-resizable/-/re-resizable-4.11.0.tgz#d5df10bda445c4ec0945751a223bf195afb61890"
   integrity sha512-dye+7rERqNf/6mDT1iwps+4Gf42420xuZgygF33uX178DxffqcyeuHbBuJ382FIcB5iP6mMZOhfW7kI0uXwb/Q==
 
+react-animated-burgers@^1.2.7:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/react-animated-burgers/-/react-animated-burgers-1.2.7.tgz#5fda9ec65134381a5c7eef866567f8f509a63fe9"
+  integrity sha512-2eCX3MBu2HYZMauzmod74MJz884/1sUqYOg4E/4sQQVu09FU26bjCdiIuNK/o1GZxfFNs2zFJTdRI7OmmclgSA==
+
 react-aria-menubutton@^6.0.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/react-aria-menubutton/-/react-aria-menubutton-6.3.0.tgz#01acc4322c5271488941270b278b17001031e687"
@@ -15329,7 +15339,7 @@ underscore.string@^3.3.5:
     sprintf-js "^1.0.3"
     util-deprecate "^1.0.2"
 
-underscore@^1.7.0:
+underscore@^1.10.2, underscore@^1.7.0:
   version "1.10.2"
   resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.10.2.tgz#73d6aa3668f3188e4adb0f1943bd12cfd7efaaaf"
   integrity sha512-N4P+Q/BuyuEKFJ43B9gYuOj4TQUHXX+j2FqguVOpjkssLUUrnJofCcBccJSCoeturDoZU6GorDTHSvUDlSQbTg==
