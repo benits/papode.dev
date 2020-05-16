@@ -51,6 +51,7 @@ export const MenuMobile = styled.div`
   display: none;
 
   ${media.lessThan("large")`
+    box-shadow: 0 2px 3px var(--shadow);
     display: flex;
     flex-direction: column;
     outline: none;
