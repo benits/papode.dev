@@ -20,7 +20,7 @@ Deixando claro:
 
   Exemple: "Salvar todos os itens da lista no banco de dados.";
 
-  `let arrayOfUsers = [{name: "João"},{name: "Maria"},{name: "José"}] arrayOfStrings.forEach(item => item.dbSave())`
+  ![foreach()_exemple](assets/img/foreach-_exemple.png "foreach()_exemple")
 * `map()`: retorna um novo array com as alterações em cada item, ele executa uma função fornecida em cada item de um array e retorna um novo array do mesmo tamanho com os itens alterados.
 
   Exemple: "Transformando lista de string caracteres em maiúsculas";
