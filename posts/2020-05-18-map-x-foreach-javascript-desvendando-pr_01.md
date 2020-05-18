@@ -25,17 +25,9 @@ Deixando claro:
 
   Exemple: "Transformando lista de string caracteres em maiúsculas";
 
-  `let arrayOfStrings=[`
+  `let arrayOfStrings=["frase para transoformar em uppercase","frase para transoformar em uppercase"]`
 
-  `"frase para transoformar em uppercase",`
-
-  `"frase para transoformar em uppercase"`
-
-  `]`
-
-  `let newArrayOfStrings = arrayOfStrings`
-
-  `.map(item=>item.toUpperCase())`
+  `let newArrayOfStrings = arrayOfStrings.map(item=>item.toUpperCase())`
 
   `console.log(newArrayOfStrings)`
 
@@ -60,21 +52,9 @@ Depende, depende do que você está fazendo.  Se você pensar de acordo com os e
 
 Além do `map()` ser mais rápido que o `forEach()`, ele também nos permite concatenar outros métodos como: `filter()`, `reduce()` …etc. Podemos ver abaixo como podemos adicionar um `filter()` no nosso exemplo:
 
-`let arrayOfStrings = [`
+`let arrayOfStrings = ["frase para transformar em uppercase","frase para transformar em uppercase","frase"]`
 
-`"frase para transformar em uppercase",`
-
-`"frase para transformar em uppercase",`
-
-`"frase"`
-
-`]`
-
-`let newArrayOfStrings = arrayOfStrings`
-
-`.map(item=>item.toUpperCase())`
-
-`.filter(item=>item.length>8)`
+`let newArrayOfStrings = arrayOfStrings.map(item=>item.toUpperCase()).filter(item=>item.length>8)`
 
 `console.log(newArrayOfStrings)`
 
