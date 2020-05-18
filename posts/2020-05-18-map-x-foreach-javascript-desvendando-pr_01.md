@@ -25,7 +25,7 @@ Deixando claro:
 
   Exemple: "Transformando lista de string caracteres em maiúsculas";
 
-  ![.map()_exemple](assets/img/.map-_exemple.png ".map()_exemple")
+  ![map()_exemple](assets/img/map-_exemple.png "map()_exemple")
 
 ## Mas Quando usar map() ou foreach()?
 
@@ -38,7 +38,7 @@ Depende, depende do que você está fazendo.  Se você pensar de acordo com os e
 
 Além do `map()` ser mais rápido que o `forEach()`, ele também nos permite concatenar outros métodos como: `filter()`, `reduce()` …etc. Podemos ver abaixo como podemos adicionar um `filter()` no nosso exemplo:
 
-![.map()_.filter()_exemple](assets/img/.map-_.filter-_exemple.png ".map()_.filter()_exemple")
+![map()_.filter()_exemple](assets/img/map-_filter-_exemple.png "map()_.filter()_exemple")
 
 Bom, pessoal é isso, em breve postarei mais sobre assuntos iniciantes em JS, até o avançado. se você gostou comenta aqui e compartilha com seus amigos.
 
