@@ -1,7 +1,7 @@
 ---
-title: "DOM - Document Object Model - HTML [Desvendando #pr_02]"
+title: "DOM - Document Object Model - HTML [Desvendando #pr_03]"
 description: Neste artigo iremos falar sobre a grande e temida DOM. Qual é e como funciona?
-date: 2020-05-18 06:02:25
+date: 2020-05-18T06:02:25.000Z
 thumbnail: assets/img/what-is-document-object-model-in-js-featured-image.jpg
 category: HTML
 background: "#7D669E"
