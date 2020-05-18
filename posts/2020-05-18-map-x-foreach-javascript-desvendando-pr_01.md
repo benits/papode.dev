@@ -25,21 +25,7 @@ Deixando claro:
 
   Exemple: "Transformando lista de string caracteres em maiúsculas";
 
-  `let arrayOfStrings=["frase para transoformar em uppercase","frase para transoformar em uppercase"]`
-
-  `let newArrayOfStrings = arrayOfStrings.map(item=>item.toUpperCase())`
-
-  `console.log(newArrayOfStrings)`
-
-  `//Output`
-
-  `[`
-
-  `"FRASE PARA TRANSOFORMAR EM UPPERCASE",`
-
-  `"FRASE PARA TRANSOFORMAR EM UPPERCASE"`
-
-  `]`
+  ![.map()_exemple](assets/img/.map-_exemple.png ".map()_exemple")
 
 ## Mas Quando usar map() ou foreach()?
 
@@ -52,21 +38,7 @@ Depende, depende do que você está fazendo.  Se você pensar de acordo com os e
 
 Além do `map()` ser mais rápido que o `forEach()`, ele também nos permite concatenar outros métodos como: `filter()`, `reduce()` …etc. Podemos ver abaixo como podemos adicionar um `filter()` no nosso exemplo:
 
-`let arrayOfStrings = ["frase para transformar em uppercase","frase para transformar em uppercase","frase"]`
-
-`let newArrayOfStrings = arrayOfStrings.map(item=>item.toUpperCase()).filter(item=>item.length>8)`
-
-`console.log(newArrayOfStrings)`
-
-`//Output`
-
-`[`
-
-`"FRASE PARA TRANSFORMAR EM UPPERCASE",`
-
-`"FRASE PARA TRANSFORMAR EM UPPERCASE"`
-
-`]`
+![.map()_.filter()_exemple](assets/img/.map-_.filter-_exemple.png ".map()_.filter()_exemple")
 
 Bom, pessoal é isso, em breve postarei mais sobre assuntos iniciantes em JS, até o avançado. se você gostou comenta aqui e compartilha com seus amigos.
 
