@@ -69,3 +69,7 @@ Além do `map()` ser mais rápido que o `forEach()`, ele também nos permite con
 `]`
 
 Bom, pessoal é isso, em breve postarei mais sobre assuntos iniciantes em JS, até o avançado. se você gostou comenta aqui e compartilha com seus amigos.
+
+### Fonte:
+
+* Mozilla: developer.mozilla.org
