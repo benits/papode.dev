@@ -20,76 +20,28 @@ Deixando claro:
 
   Exemple: "Salvar todos os itens da lista no banco de dados.";
 
-  `let arrayOfUsers = [{name: "João"},{name: "Maria"},{name: "José"}]`
-
-  `arrayOfStrings.forEach(item => item.dbSave())`
-
-  ``
+  ![foreach()_exemple](assets/img/foreach-_exemple.png "foreach()_exemple")
 * `map()`: retorna um novo array com as alterações em cada item, ele executa uma função fornecida em cada item de um array e retorna um novo array do mesmo tamanho com os itens alterados.
 
   Exemple: "Transformando lista de string caracteres em maiúsculas";
 
-  `let arrayOfStrings=[`
-
-  `"frase para transoformar em uppercase",`
-
-  `"frase para transoformar em uppercase"`
-
-  `]`
-
-  `let newArrayOfStrings = arrayOfStrings`
-
-  `.map(item=>item.toUpperCase())`
-
-  `console.log(newArrayOfStrings)`
-
-  `//Output`
-
-  `[`
-
-  `"FRASE PARA TRANSOFORMAR EM UPPERCASE",`
-
-  `"FRASE PARA TRANSOFORMAR EM UPPERCASE"`
-
-  `]`
+  ![map()_exemple](assets/img/map-_exemple.png "map()_exemple")
 
 ## Mas Quando usar map() ou foreach()?
 
 Essa pergunta ganha aquela famosa resposta que nós Devs adoramos, kkkk.
 
-Depende, despende do que você está fazendo.  Se você pensar de acordo com os exemplos anteriores, 
+Depende, depende do que você está fazendo.  Se você pensar de acordo com os exemplos anteriores, 
 
 * **`foreach():`** é o mais indicado quando nós não precisamos alterar o valor dos elementos de um array. 
 * **`map():`** é o mais indicado em cenários como no nosso exemplo anterior, onde nós precisamos alterar o valor de um array.
 
-além do `map()` ser mais rápido que o `forEach()`, ele também nos permite concatenar outros métodos como: `filter()`, `reduce()` …etc. Podemos ver abaixo como podemos adicionar um `filter()` no nosso exemplo:
+Além do `map()` ser mais rápido que o `forEach()`, ele também nos permite concatenar outros métodos como: `filter()`, `reduce()` …etc. Podemos ver abaixo como podemos adicionar um `filter()` no nosso exemplo:
 
-`let arrayOfStrings = [`
+![map()_.filter()_exemple](assets/img/map-_filter-_exemple.png "map()_.filter()_exemple")
 
-`"frase para transformar em uppercase",`
+Bom, pessoal é isso, em breve postarei mais sobre assuntos iniciantes em JS, até o avançado. se você gostou comenta aqui e compartilha com seus amigos.
 
-`"frase para transformar em uppercase",`
+### Fonte:
 
-`"frase"`
-
-`]`
-
-`let newArrayOfStrings = arrayOfStrings`
-
-`.map(item=>item.toUpperCase())`
-
-`.filter(item=>item.length>8)`
-
-`console.log(newArrayOfStrings)`
-
-`//Output`
-
-`[`
-
-`"FRASE PARA TRANSFORMAR EM UPPERCASE",`
-
-`"FRASE PARA TRANSFORMAR EM UPPERCASE"`
-
-`]`
-
-Bom, pessoal é isso. em breve postarei mais sobre assuntos iniciantes em JS, até o avançado. se você gostou comenta aqui e compartilha com seus amigos.
+* Mozilla: developer.mozilla.org
