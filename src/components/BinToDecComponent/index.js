@@ -17,12 +17,26 @@ export default class BinToDecComponent extends React.Component {
         <S.Description>
           Esse projeto foi baseado na ideia do repositorio{" "}
           <S.ItemLink
-            href="https://github.com/email2vimalraj/Bin2Dec"
+            href="https://github.com/florinpop17/app-ideas"
             target="__blank"
           >
             App Ideas Collection
           </S.ItemLink>
           .
+        </S.Description>
+        <S.Description>
+          Quer ver como ficou o código?
+          <br />
+          como eu fiz para criei esses conversores?
+          <br />
+          acesse o link dessa pagina no github.
+          <br />
+          <S.ItemLink
+            href="https://github.com/benits/papode.dev/blob/master/src/pages/BinToDec.js"
+            target="__blank"
+          >
+            Bin2Dec - Number Converter
+          </S.ItemLink>
         </S.Description>
         <S.CardWrapper>
           <ConversorBinToDec />

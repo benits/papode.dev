@@ -71,7 +71,8 @@ export const SubTitle = styled.h2`
 export const Description = styled.p`
   font-size: 1.1rem;
   font-weight: 400;
-  margin: 0.2rem 0 0.5rem;
+  line-height: 1.5rem;
+  margin: 0.6rem 0 0.5rem;
   color: var(--texts);
 `
 export const Username = styled.span`
