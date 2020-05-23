@@ -202,7 +202,7 @@ export default class ConversorBinToDec extends React.Component {
                   type="text"
                   disabled
                   min="0"
-                  value={this.state.hex ? this.state.hex : "0"}
+                  value={this.state.hex}
                   placeholder="Hexadecimal"
                   name="hexadecimal"
                 />
