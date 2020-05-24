@@ -15,7 +15,11 @@ const Projects = [
       "O Border Radius Previewer permite que o usuário visualizar como os valores de raio da borda CSS3 afetam um elemento. A propriedade border-radius pode ter vários valores alterados. Visualize a aparência da forma ao alterar esses valores.",
     language: ["JS"],
     tecnologies: ["React", "GatsbyJs"],
-    libs: ["styled-components", "react-code-blocks"],
+    libs: [
+      "styled-components",
+      "animate-css-styled-components",
+      "react-code-blocks",
+    ],
   },
 ]
 

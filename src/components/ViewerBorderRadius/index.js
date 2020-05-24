@@ -1,5 +1,8 @@
 import React from "react"
 import { CopyBlock, dracula } from "react-code-blocks"
+
+import { LightSpeedIn } from "animate-css-styled-components"
+
 import * as S from "./styled"
 
 export default class ViewerBorderRadius extends React.Component {
@@ -49,67 +52,73 @@ export default class ViewerBorderRadius extends React.Component {
             Border Radius Previewer
           </S.ItemLink>
         </S.Description>
-
-        <S.CardWrapper>
-          <S.BorderWrapper
-            borderRadius={`${this.state.borderRadiusLeftTop}px ${this.state.borderRadiusRightTop}px ${this.state.borderRadiusRightBottom}px ${this.state.borderRadiusLeftBottom}px`}
-          >
-            <S.LeftWrapper>
-              <S.InputStyled
-                type="number"
-                value={this.state.borderRadiusLeftTop}
-                onChange={this._handleChange}
-                placeholder="0px"
-                min="0"
-                name="borderRadiusLeftTop"
-              />
-              <S.InputStyled
-                type="number"
-                value={this.state.borderRadiusLeftBottom}
-                onChange={this._handleChange}
-                placeholder="0px"
-                min="0"
-                name="borderRadiusLeftBottom"
-              />
-            </S.LeftWrapper>
-            <S.RightWrapper>
-              <S.InputStyled
-                type="number"
-                value={this.state.borderRadiusRightTop}
-                onChange={this._handleChange}
-                placeholder="0px"
-                min="0"
-                name="borderRadiusRightTop"
-              />
-              <S.InputStyled
-                type="number"
-                value={this.state.borderRadiusRightBottom}
-                onChange={this._handleChange}
-                placeholder="0px"
-                min="0"
-                name="borderRadiusRightBottom"
-              />
-            </S.RightWrapper>
-          </S.BorderWrapper>
-        </S.CardWrapper>
-        <CopyBlock
-          text={`
+        <LightSpeedIn delay="0.5s">
+          <S.CardWrapper>
+            <S.BorderWrapper
+              borderRadius={`${this.state.borderRadiusLeftTop}px ${this.state.borderRadiusRightTop}px ${this.state.borderRadiusRightBottom}px ${this.state.borderRadiusLeftBottom}px`}
+            >
+              <S.LeftWrapper>
+                <S.InputStyled
+                  type="number"
+                  value={this.state.borderRadiusLeftTop}
+                  onChange={this._handleChange}
+                  placeholder="0px"
+                  min="0"
+                  name="borderRadiusLeftTop"
+                />
+                <S.InputStyled
+                  type="number"
+                  value={this.state.borderRadiusLeftBottom}
+                  onChange={this._handleChange}
+                  placeholder="0px"
+                  min="0"
+                  name="borderRadiusLeftBottom"
+                />
+              </S.LeftWrapper>
+              <S.RightWrapper>
+                <S.InputStyled
+                  type="number"
+                  value={this.state.borderRadiusRightTop}
+                  onChange={this._handleChange}
+                  placeholder="0px"
+                  min="0"
+                  name="borderRadiusRightTop"
+                />
+                <S.InputStyled
+                  type="number"
+                  value={this.state.borderRadiusRightBottom}
+                  onChange={this._handleChange}
+                  placeholder="0px"
+                  min="0"
+                  name="borderRadiusRightBottom"
+                />
+              </S.RightWrapper>
+            </S.BorderWrapper>
+          </S.CardWrapper>
+        </LightSpeedIn>
+        <LightSpeedIn delay="0.6s">
+          <CopyBlock
+            text={`
 border-radius: ${`${this.state.borderRadiusLeftTop}px ${this.state.borderRadiusRightTop}px ${this.state.borderRadiusRightBottom}px ${this.state.borderRadiusLeftBottom}px;`}
 `}
-          language="javascript"
-          theme={dracula}
-        />
-        <S.SubTitle>Código React</S.SubTitle>
-        <S.Description>
-          Para facilitar a vida de todo mundo, eu adicionei o codigo do
-          component React pronto usando Styled Component. É só Copiar/Colar e
-          sair usando.
-        </S.Description>
+            language="javascript"
+            theme={dracula}
+          />
+        </LightSpeedIn>
+        <LightSpeedIn delay="0.7s">
+          <S.SubTitle>Código React</S.SubTitle>
+          <S.Description>
+            Para facilitar a vida de todo mundo, eu adicionei o codigo do
+            component React pronto usando Styled Component. É só Copiar/Colar e
+            sair usando.
+          </S.Description>
+        </LightSpeedIn>
         <S.CodeWrapper>
-          <S.CodeLeftWrapper>
-            <S.SubTitle>BorderRadius.js</S.SubTitle>
-            <CopyBlock
-              text={`
+          <LightSpeedIn delay="0.8s">
+            <S.CodeLeftWrapper>
+              <S.SubTitle>BorderRadius.js</S.SubTitle>
+              <CopyBlock
+                text={`
 import React from "react" 
 import * as S from "./styled"
         
@@ -119,18 +128,20 @@ const BorderRadius = () =>
 export default BorderRadius
 
 `}
-              language="jsx"
-              theme={dracula}
-            />
-            <S.Code>
-              {`
+                language="jsx"
+                theme={dracula}
+              />
+              <S.Code>
+                {`
 `}
-            </S.Code>
-          </S.CodeLeftWrapper>
-          <S.CodeRightWrapper>
-            <S.SubTitle>styled.js</S.SubTitle>
-            <CopyBlock
-              text={`
+              </S.Code>
+            </S.CodeLeftWrapper>
+          </LightSpeedIn>
+          <LightSpeedIn delay="0.9s">
+            <S.CodeRightWrapper>
+              <S.SubTitle>styled.js</S.SubTitle>
+              <CopyBlock
+                text={`
 import styled from "styled-components"
 
 export const BorderWrapper = styled.div\`
@@ -143,10 +154,11 @@ width: 100%;
 \`;
 
 `}
-              language="javascript"
-              theme={dracula}
-            />
-          </S.CodeRightWrapper>
+                language="javascript"
+                theme={dracula}
+              />
+            </S.CodeRightWrapper>
+          </LightSpeedIn>
         </S.CodeWrapper>
       </S.ContentWrapper>
     )
