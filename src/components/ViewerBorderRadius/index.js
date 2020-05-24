@@ -95,7 +95,6 @@ export default class ViewerBorderRadius extends React.Component {
         <CopyBlock
           text={`
 border-radius: ${`${this.state.borderRadiusLeftTop}px ${this.state.borderRadiusRightTop}px ${this.state.borderRadiusRightBottom}px ${this.state.borderRadiusLeftBottom}px;`}
-
 `}
           language="javascript"
           theme={dracula}
@@ -138,6 +137,9 @@ export const BorderWrapper = styled.div\`
 border-radius: ${`${this.state.borderRadiusLeftTop}px ${this.state.borderRadiusRightTop}px ${this.state.borderRadiusRightBottom}px ${this.state.borderRadiusLeftBottom}px;`}
 background-color: #f8f8f2;
 border: rgba(155,0,255,1) solid 1px;
+
+height: 100%;
+width: 100%;
 \`;
 
 `}
