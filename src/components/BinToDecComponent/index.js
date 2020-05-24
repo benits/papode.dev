@@ -30,11 +30,11 @@ export default class BinToDecComponent extends React.Component {
           como eu fiz para criei esses conversores?
           <br />
           acesse o link dessa pagina no github.
-          <br />
           <S.ItemLink
             href="https://github.com/benits/papode.dev/blob/master/src/pages/BinToDec.js"
             target="__blank"
           >
+            {" "}
             Bin2Dec - Number Converter
           </S.ItemLink>
         </S.Description>
