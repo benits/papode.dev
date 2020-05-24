@@ -36,17 +36,17 @@ export const Title = styled.h1`
   font-size: 1.5rem;
   font-weight: bold;
   ${media.lessThan("large")`
-    max-width: 100%;
+    font-size: 1.2rem;
   `};
 `
 
 export const SubTitle = styled.h2`
   color: var(--postColor);
   font-size: 1rem;
-  font-weight: 300;
+
   font-weight: 500;
   ${media.lessThan("large")`
-    max-width: 100%;
+    font-size: 0.8rem;
   `};
 `
 export const Description = styled.p`
@@ -55,7 +55,8 @@ export const Description = styled.p`
   font-weight: bold;
   margin: 8px 0;
   ${media.lessThan("large")`
-    max-width: 100%;
+    font-size: 0.8rem;
+    line-height: 0.9rem;
   `};
 `
 
@@ -65,7 +66,8 @@ export const ItemDescription = styled.span`
   font-weight: bold;
   margin: 8px 0;
   ${media.lessThan("large")`
-    max-width: 100%;
+    font-size: 0.6rem;
+    line-height: 0.7rem;
   `};
 `
 
@@ -82,6 +84,11 @@ export const TechsWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
+  ${media.lessThan("large")`
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+  `};
 `
 
 export const Wrapper = styled.div`
