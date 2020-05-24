@@ -31,6 +31,7 @@ export default class Gitfolio extends React.Component {
                     {item.language}
                   </S.Wrapper>
                 )}
+
                 <S.Wrapper>
                   <S.Starr />
                   {item.stargazers_count}

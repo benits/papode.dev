@@ -12,6 +12,10 @@ const links = [
     url: "/gitfolio",
   },
   {
+    label: "Hands-on",
+    url: "/hands-on",
+  },
+  {
     label: "Assine",
     url: "/newsletter",
   },
