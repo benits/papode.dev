@@ -1,9 +1,9 @@
 <h1 align="center">
-    <img alt="PapodeDev" title="PapodeDev" src="https://papode.dev/assets/img/papodedev.png" width="250px" />
+    <img alt="PapodeDev" title="PapodeDev" src="https://papode.dev/assets/img/papodedev.png" width="700px" />
 </h1>
 
 <h4 align="center"> 
-	:construction: NextLevelWeek 1.0 🚀 In progress.. :construction:
+	:construction: Papo de Dev 🚀 steadily progressing.. :construction:
 </h4>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/DanielObara/NLW-1.0?color=%2304D361">
