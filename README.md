@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/logo.svg" width="250px" />
+    <img alt="PapodeDev" title="PapodeDev" src="https://papode.dev/assets/img/papodedev.png" width="250px" />
 </h1>
 
 <h4 align="center"> 
