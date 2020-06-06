@@ -1,5 +1,7 @@
 <h1 align="center">
+	<a href="https://papode.dev/" target="_blank">
     <img alt="PapodeDev" title="PapodeDev" src="https://papode.dev/assets/img/papodedev.png" width="700px" />
+	</a>
 </h1>
 
 <h4 align="center"> 
@@ -26,7 +28,6 @@
 
 <p align="center">
   <a href="#-papodedev">Blog Papo de Dev</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-use">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -34,16 +35,9 @@
   <a href="#memo-license">License</a>
 </p>
 
-## :information_source: What's Next Level Week?
+## :information_source: Blog Papo de Dev?
 
-NLW is a practical week with lots of code, challenges, networking and a single objective: to take you to the next level.
-Through our method you will learn new tools, learn about new technologies and discover hacks that will boost your career.
-An online and completely free event that will help you take the next step in your evolution as a dev.
-
-## 💻 Project
-
-Ecoleta is a project developed based on international environment week. 
-That aims to connect people to companies that collect specific waste such as light bulbs, batteries, cooking oil, etc.
+Papo de Dev is a blog created to share my knowledge about programming, technology and career as a developer.
 
 <h1 align="center">
     <img alt="Example" title="Example" src="https://papode.dev/assets/img/papo.png" width="500px" />
@@ -54,11 +48,9 @@ That aims to connect people to companies that collect specific waste such as lig
 
 This project was developed with the following technologies:
 
-- [Node.js][nodejs]
-- [TypeScript][typescript]
+- [Marckdown][Marckdown]
+- [Gatsby][Gatsby]
 - [React][reactjs]
-- [React Native][rn]
-- [Expo][expo]
 
 ## 🔖 Layout
 
