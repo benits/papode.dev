@@ -49,7 +49,7 @@ Papo de Dev is a blog created to share my knowledge about programming, technolog
 This project was developed with the following technologies:
 
 - [Marckdown][Marckdown]
-- [Gatsby][Gatsby]
+- [https://www.gatsbyjs.org/][Gatsby]
 - [React][reactjs]
 
 ## 🔖 Layout
