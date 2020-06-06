@@ -13,7 +13,7 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/benits/papode.dev">
 	
   <a href="https://www.linkedin.com/in/benites-amorim/">
-    <img alt="Made by DanielObara" src="https://img.shields.io/badge/made%20by-MatheusBenites-%2304D361">
+    <img alt="Made by Matheus Benites" src="https://img.shields.io/badge/made%20by-MatheusBenites-%2304D361">
   </a>
 
   <a href="https://github.com/benits/papode.dev/commits/master">
@@ -47,80 +47,35 @@ Papo de Dev is a blog created to share my knowledge about programming, technolog
 
 This project was developed with the following technologies:
 
-- [Marckdown](https://www.markdownguide.org/basic-syntax/)
-- [Gatsby](https://www.gatsbyjs.org/)
+- [Marckdown][marckdown]
+- [Gatsby][gatsbyjs]
 - [React][reactjs]
 
 
 ## :information_source: How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] + [Gatsby CLI](https://www.gatsbyjs.org/docs/quick-start/) installed on your computer.
+To clone and run this application, you'll need [Git][git], [Yarn][yarn] + [Gatsby CLI][gatsby-cli] installed on your computer.
 
 From your command line:
 
-### Install API 
+### Install 
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/DanielObara/NLW-1.0
+$ git clone https://github.com/benits/papode.dev.git
+
+# Install gatsby-cli
+$ npm install -g gatsby-cli
 
 # Go into the repository
-$ cd NLW-1.0/backend
+$ cd papode.dev
 
-# Install dependencies
-$ yarn install
+# Start 
+$ gatsby develop
 
-# Run Migrates
-$ yarn knex:migrate
-
-# Run Seeds
-$ yarn knex:seed
-
-# Start server
-$ yarn dev
-
-# running on port 3333
+# running on port 8000
 ```
 
-### Install Front-end
-
-```bash
-# Clone this repository
-$ git clone https://github.com/DanielObara/NLW-1.0
-
-# Go into the repository
-$ cd NLW-1.0/frontent
-
-# Install dependencies
-$ yarn install
-
-# Run
-$ yarn start
-
-# running on port 3000
-```
-
-### Install Mobile
-
-```bash
-# Clone this repository
-$ git clone https://github.com/DanielObara/NLW-1.0
-
-# Go into the repository
-$ cd NLW-1.0/mobile
-
-# Install dependencies
-$ yarn install
-
-# Run
-$ yarn start
-
-# Expo will open, just scan the qrcode on terminal or expo page
-
-# If some problem with fonts, execute:
-$ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
-
-```
 
 ## 🤔 How to contribute
 
@@ -136,9 +91,12 @@ After merging your receipt request to done, you can delete a branch from yours.
 This project is under the MIT license. See the [LICENSE](https://github.com/DanielObara/NLW-1.0/blob/master/LICENSE) for details.
 
 
-Made with ♥ by Daniel Obara :wave: [Get in touch!](https://www.linkedin.com/in/danielobara/)
+Made with ♥ by Matheus Benites :wave: [Get in touch!](https://www.linkedin.com/in/benites-amorim/)
 
 [nodejs]: https://nodejs.org/
+[git]: https://git-scm.com
+[gatsbyjs]: https://www.gatsbyjs.org/
+[gatsby-cli]: https://www.gatsbyjs.org/docs/quick-start/
 [typescript]: https://www.typescriptlang.org/
 [expo]: https://expo.io/
 [reactjs]: https://reactjs.org
@@ -148,3 +106,4 @@ Made with ♥ by Daniel Obara :wave: [Get in touch!](https://www.linkedin.com/in
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 [prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+[marckdown]: https://www.markdownguide.org/basic-syntax/
