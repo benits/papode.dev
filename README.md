@@ -29,7 +29,6 @@
 <p align="center">
   <a href="#-papodedev">Blog Papo de Dev</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-use">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
@@ -48,17 +47,14 @@ Papo de Dev is a blog created to share my knowledge about programming, technolog
 
 This project was developed with the following technologies:
 
-- [Marckdown][marckdown]
-- [Gatsby][gatsbyjs]
+- [Marckdown](https://www.markdownguide.org/basic-syntax/)
+- [Gatsby](https://www.gatsbyjs.org/)
 - [React][reactjs]
 
-## 🔖 Layout
-
-To access the layout use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/).
 
 ## :information_source: How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] installed on your computer.
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] + [Gatsby CLI](https://www.gatsbyjs.org/docs/quick-start/) installed on your computer.
 
 From your command line:
 
