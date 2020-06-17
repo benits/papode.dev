@@ -10,6 +10,7 @@ const SearchPage = () => (
     <SEO
       title="Search"
       description="Vai lá, não tenha medo. Busque por posts novos e bem antigos."
+      slugPath="search"
     />
     <Search />
   </Layout>

@@ -10,6 +10,7 @@ const BorderRadiusViewer = () => (
     <SEO
       title="Border-radius Previewer"
       description="A propriedade border-radius pode ter vários valores alterados. Visualize a aparência da forma ao alterar esses valores."
+      slugPath="border-radius-viewer"
     />
     <ViewerBorderRadius />
   </Layout>

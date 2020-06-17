@@ -14,16 +14,26 @@ const BlogPost = ({ data, pageContext }) => {
   const next = pageContext.nextPost
   const previous = pageContext.previousPost
 
+  const image = `${data.site.siteMetadata.siteUrl}/${post.frontmatter.thumbnail}`
+  console.log(image)
+
   return (
     <Layout>
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description}
-        image={post.frontmatter.image}
+        image={`/${post.frontmatter.thumbnail}`}
+        isArticle={true}
+        slugPath={post.fields.slug}
+        category={post.frontmatter.category}
+        publishedTime={post.frontmatter.date}
       />
       <S.PostHeader>
+        <S.PostImage src={image} alt={post.frontmatter.description} />
         <S.PostDate>
           {post.frontmatter.date} • {post.timeToRead} min de leitura
+          <br />
+          Author: {data.site.siteMetadata.author}
         </S.PostDate>
         <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
         <S.PostDescription>{post.frontmatter.description}</S.PostDescription>
@@ -47,9 +57,17 @@ export const query = graphql`
         date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
         description
         title
+        thumbnail
+        category
       }
       html
       timeToRead
+    }
+    site {
+      siteMetadata {
+        siteUrl
+        author
+      }
     }
   }
 `

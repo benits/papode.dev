@@ -11,6 +11,7 @@ const HandsOn = () => (
     <SEO
       title="Hands-On"
       description="Aqui você pode ver na prática um pouco do que eu sei fazer. Nessa página listo alguns projetos práticos de estudo."
+      slugPath="hands-on"
     />
     <HandsOnComponent />
   </Layout>

@@ -13,6 +13,16 @@ export const PostHeader = styled.header`
   `}
 `
 
+export const PostImage = styled.img`
+  padding: 0 1.4rem;
+  margin: 1rem auto;
+  border-radius: 10%;
+
+  ${media.lessThan("large")`
+    padding: 0 1rem;
+  `};
+`
+
 export const PostTitle = styled.h1`
   font-size: 4rem;
   font-weight: 700;

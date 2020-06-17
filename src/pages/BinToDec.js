@@ -11,6 +11,7 @@ const BinToDecPage = () => (
     <SEO
       title="Bin2Dec - Number Converter"
       description="Conversor de Número."
+      slugPath="BinToDec"
     />
     <BinToDecComponent />
   </Layout>

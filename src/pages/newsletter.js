@@ -10,6 +10,7 @@ const NewsLetter = () => (
     <SEO
       title="Formulário NewsLetter"
       description="Vai lá, não tenha medo. Se Registre na nossa NewsLetter."
+      slugPath="newsletter"
     />
     <FormMailChimp />
   </Layout>

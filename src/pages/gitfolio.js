@@ -11,6 +11,7 @@ const Experience = () => (
     <SEO
       title="Gitfolio"
       description="Sinta-se a vontade, e descubra tudo que eu já codei."
+      slugPath="gitfolio"
     />
     <Gitfolio />
   </Layout>

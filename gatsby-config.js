@@ -4,7 +4,7 @@ const queries = require("./src/utils/algolia_queries")
 
 module.exports = {
   siteMetadata: {
-    title: `Papode.Dev`,
+    title: `Papo de Dev`,
     position: `Engenheiro de Software`,
     description: `Escrevo sobre o mundo da Tecnologia,Carreira e Desenvolvimento de software. Um papo de Dev para Dev!`,
     author: `Matheus Benites`,
@@ -104,7 +104,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Papode.Dev`,
+        name: `Papo de Dev`,
         short_name: `Papode.Dev`,
         start_url: `/`,
         background_color: `#16202c`,

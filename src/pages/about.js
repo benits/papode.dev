@@ -13,6 +13,7 @@ const AboutPage = () => (
     <SEO
       title="Sobre mim"
       description="Saiba um pouco mais sobre o desenvolvedor por trás deste blog."
+      slugPath="about"
     />
     <MainContent>
       <h1>Sobre mim</h1>
