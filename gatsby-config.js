@@ -172,6 +172,7 @@ module.exports = {
                 }
               `,
             output: "/rss.xml",
+
             title: "Papo de Dev RSS Feed",
             // optional configuration to insert feed reference in pages:
             // if `string` is used, it will be used to create RegExp and then test if pathname of
@@ -179,6 +180,7 @@ module.exports = {
             // if not provided or `undefined`, all pages will have feed reference inserted
 
             // optional configuration to specify external rss feed, such as feedburner
+            link: "https://feeds.feedburner.com/gatsby/blog",
           },
         ],
       },
