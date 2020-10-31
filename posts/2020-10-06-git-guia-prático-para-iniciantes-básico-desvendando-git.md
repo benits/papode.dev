@@ -1,5 +1,6 @@
 ---
-title: Git guia prático para iniciantes - Básico - [DESVENDANDO GIT]
+title: Git guia prático para iniciantes - Configurando git - [DESVENDANDO GIT -
+  Parte 1]
 description: Neste artigo iremos entender como funcionar o GIT que é o sistema
   de controle de versão mais comumente usado.
 date: 2020-10-06T09:01:52.000Z
@@ -63,7 +64,7 @@ Antes de mais nada precisamos instalar o [Git](https://git-scm.com/) em nosso am
   > Nota: Lembre de substituir **papo de dev** e **exemplo@seuemail.com.br** com seus dados. Qualquer *commit* criado posteriormente será associado à esses dados.
 * ### Instalação no Linux
 
-  Se você é um usuário Linux, então deve estar acostumado com instalar programas e pacotes em seu computador usando comandos de instalação`apt-get`ou`yum`. Instalar o GIT não é diferente:
+  Se você é um usuário Linux, então deve estar acostumado com instalar programas e pacotes em seu computador usando comandos de instalação `apt-get `ou `yum`. Instalar o GIT não é diferente:
 
   **Para usuários Debian/Ubuntu (apt-get):**
 
@@ -87,4 +88,10 @@ Antes de mais nada precisamos instalar o [Git](https://git-scm.com/) em nosso am
 
      > Nota: Lembre de substituir **papo de dev** e **exemplo@seuemail.com.br** com seus dados. Qualquer *commit* criado posteriormente será associado à esses dados.
 
-## Primeiros passos com Git?
+## Conclusão
+
+Concluindo nosso artigo, entendemos para o que serve o git, quando utiliza-lo e como fazer suas primeiras configurações.
+
+Qualquer problema seguindo nosso passo a passo, pode comentar aqui embaixo que te ajudamos a resolver.
+
+Se você gostou do post, comenta aqui em baixo quais temas gostaria de ver no nosso blog ou canal do youtube, compartilha com seus amigos, nos ajude a chegar ao máximo de pessoas possível.
