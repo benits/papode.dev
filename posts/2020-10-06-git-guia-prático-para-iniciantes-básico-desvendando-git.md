@@ -2,7 +2,7 @@
 title: Git guia prático para iniciantes - Básico - [DESVENDANDO GIT]
 description: Neste artigo iremos entender como funcionar o GIT que é o sistema
   de controle de versão mais comumente usado.
-date: 2020-10-06 09:01:52
+date: 2020-10-06T09:01:52.000Z
 thumbnail: assets/img/comandos-git.png
 category: DEV
 background: "#7D669E"
@@ -60,9 +60,7 @@ Antes de mais nada precisamos instalar o [Git](https://git-scm.com/) em nosso am
     git config --global user.email "exemplo@seuemail.com.br"
     ```
 
-  > Nota: Lembre de substituir **João Silva** e **exemplo@seuemail.com.br** com seus dados. Qualquer *commit* criado posteriormente será associado à esses dados.
-
-
+  > Nota: Lembre de substituir **papo de dev** e **exemplo@seuemail.com.br** com seus dados. Qualquer *commit* criado posteriormente será associado à esses dados.
 * ### Instalação no Linux
 
   Se você é um usuário Linux, então deve estar acostumado com instalar programas e pacotes em seu computador usando comandos de instalação`apt-get`ou`yum`. Instalar o GIT não é diferente:
