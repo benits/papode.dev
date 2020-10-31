@@ -85,6 +85,6 @@ Antes de mais nada precisamos instalar o [Git](https://git-scm.com/) em nosso am
      git config --global user.email "exemplo@seuemail.com.br"
      ```
 
-     > Nota: Lembre de substituir **João Silva** e **exemplo@seuemail.com.br** com seus dados. Qualquer *commit* criado posteriormente será associado à esses dados.
+     > Nota: Lembre de substituir **papo de dev** e **exemplo@seuemail.com.br** com seus dados. Qualquer *commit* criado posteriormente será associado à esses dados.
 
 ## Primeiros passos com Git?
