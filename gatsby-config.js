@@ -98,6 +98,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-6890748019706116`,
+      },
+    },
+    {
       resolve: "gatsby-plugin-mailchimp",
       options: {
         endpoint:
