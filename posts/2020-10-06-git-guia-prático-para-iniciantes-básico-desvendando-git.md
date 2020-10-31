@@ -1,8 +1,8 @@
 ---
 title: Git guia prático para iniciantes - Configurando git - [DESVENDANDO GIT -
   Parte 1]
-description: Neste artigo iremos entender como funcionar o GIT que é o sistema
-  de controle de versão mais comumente usado.
+description: Neste artigo iremos entender como funciona o GIT que é o sistema de
+  controle de versão mais comumente usado.
 date: 2020-10-06T09:01:52.000Z
 thumbnail: assets/img/comandos-git.png
 category: DEV
@@ -14,7 +14,7 @@ No artigo de hoje vamos entender melhor como podemos versionar nosso código de 
 
 Vamos conversar um pouco sobre o famoso Git!
 
-Uma das maneiras mais fácil de Você versionar uma pasta/repositório, chega de vários .zip com 1.0, 1.1, 1.2. Aquelas nomenclaturas doidas em suas pastas que mais atrapalham do que ajudam
+Uma das maneiras mais fácil de você versionar uma pasta/repositório, chega de vários .zip com 1.0, 1.1, 1.2. Aquelas nomenclaturas doidas em suas pastas que mais atrapalham do que ajudam
 
 ## Por que Git?
 
@@ -64,7 +64,7 @@ Antes de mais nada precisamos instalar o [Git](https://git-scm.com/) em nosso am
   > Nota: Lembre de substituir **papo de dev** e **exemplo@seuemail.com.br** com seus dados. Qualquer *commit* criado posteriormente será associado à esses dados.
 * ### Instalação no Linux
 
-  Se você é um usuário Linux, então deve estar acostumado com instalar programas e pacotes em seu computador usando comandos de instalação `apt-get `ou `yum`. Instalar o GIT não é diferente:
+  Se você é um usuário Linux, então deve estar acostumado com instalar programas e pacotes em seu computador usando comandos de instalação `apt-get`ou `yum`. Instalar o GIT não é diferente:
 
   **Para usuários Debian/Ubuntu (apt-get):**
 
