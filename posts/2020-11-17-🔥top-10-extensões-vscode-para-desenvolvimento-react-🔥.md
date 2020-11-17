@@ -3,12 +3,16 @@ title: 🔥TOP 10 extensões VSCode para desenvolvimento React 🔥
 description: Ao trabalhar com o React, muitos códigos são repetidos
   continuamente ... e indefinidamente. Eventualmente, você começa a pensar, “tem
   que haver uma maneira melhor”.
-date: 2020-11-17 03:44:49
+date: 2020-11-17T03:44:49.000Z
 thumbnail: assets/img/papode.dev.png
 category: ReactJs
 background: "#B31917"
 ---
-Ao trabalhar com o React, muitos códigos são repetidos continuamente ... e indefinidamente. Eventualmente, você começa a pensar, “**tem que haver uma maneira melhor**”.
+## Fala Dev!
+
+No artigo de hoje vamos entender melhor como podemos melhorar nossa produtividade utilizandoalgumas extensões para o VS Code.
+
+Trabalho com React diariamente, e muitos códigos são repetidos continuamente ... e indefinidamente. Eventualmente, você começa a pensar, “**tem que haver uma maneira melhor**”.
 
 Não se preocupe, existe!
 
@@ -26,3 +30,11 @@ Abaixo listo algumas das extenções que mais utilizo no meu dia a dia aqui na E
 8. **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)** - aumenta os recursos do Git integrados ao Visual Studio Code. Ele ajuda você a visualizar a autoria do código rapidamente por meio de anotações de culpa do Git e lentes de código, navegar e explorar repositórios Git perfeitamente, obter insights valiosos por meio de comandos de comparação poderosos e muito mais;
 9. **[Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)** - plugin VS Code que autocompleta nomes de arquivos;
 10. **[ES7 snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)** - React / Redux / GraphQL / React-Native;
+
+
+
+## Conclusão
+
+Concluindo nosso artigo, entendemos que conseguimos agilizar e melhorar algumas coisas no nosso desenvolvimento apenas adicionando alguns Plugins ao nosso editor de texto.
+
+Se você gostou do post, comenta aqui em baixo quais temas gostaria de ver no nosso blog ou canal do youtube, compartilha com seus amigos, nos ajude a chegar ao máximo de pessoas possível.
