@@ -26,11 +26,11 @@ const AboutPage = () => (
       <p>
         Atualmente sou Engenheiro de Software na{" "}
         <a
-          href="http://easycarros.com/"
+          href="https://rockcontent.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Easy Carros
+          Rock Content
         </a>
       </p>
 
