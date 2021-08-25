@@ -9,4 +9,6 @@ thumbnail: assets/img/h5j7kxcepqre4c893oii.png
 category: TS
 background: "#007acc"
 ---
-rrrgfdgfd
+Bom, vamos entender juntos o que é type e interface, qual o problema cada uma foi planejada para resolver e quando utilizar type ou interface no TypeScript.
+
+Quando conheci o TypesScript nas minhas noites de estudo a dentro, percebi que havia duas maneira de se tipar um objeto, variavel, função, classe, etc... Essas formas esram utilizando Type ou Interface.
