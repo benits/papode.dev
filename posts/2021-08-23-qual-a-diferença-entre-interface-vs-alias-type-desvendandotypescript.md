@@ -19,8 +19,10 @@ Então eu fiz uma pesquisa e aqui vou relatar a minha visão de cada um e quando
 
 De acordo com a documentação oficial do typescript:
 
-`type:` Que na verdade é um alias type, ou seja quando criamos uma tipagem de algo utilizando type, estamos na verdade criando um alias dos tipos para que tenhamos tipagens reutilizaveis.
+`type:` Que na verdade é um alias type, ou seja quando criamos uma tipagem de algo utilizando type, estamos na verdade criando um apelido, um novo nome para os tipos, assim temos tipagens reutilizaveis.
 
 Por exemplo:
 
 ![](assets/img/carbon.png)
+
+Vamos entender o que aconteceu no codigo acima, bora criar uma situação hipotetica onde você tem uma função que salva dados de cliente e de company no seu sistema e por um acaso client
