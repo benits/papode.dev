@@ -1,6 +1,6 @@
 ---
 title: "Qual a diferença entre Interface VS Alias Type - #DesvendandoTypescript"
-description: Assim como eu, você quando conheceu o typescript ficou se
+description: Se assim como eu, você quando conheceu o typescript ficou se
   perguntando Qual a diferença entre "Type" e "Interface"? Quando usar um ou
   outro? Se você quer saber a respotas para essas perguntas, este artigo é para
   você.
