@@ -23,6 +23,14 @@ De acordo com a documentação oficial do typescript:
 
 Por exemplo:
 
-![](assets/img/carbon.png)
+![](assets/img/printcoord.png)
 
-Vamos entender o que aconteceu no codigo acima, bora criar uma situação hipotetica onde você tem uma função que salva dados de cliente e de company no seu sistema e por um acaso client
+Vamos entender o que aconteceu no codigo acima, primeiro criamos um `alias type Coordinates` tipando o objeto coordenadas e em seguida chamamos nosso `alias type Coordinates`  para tipar as props que nossa função recebe. Dessa maneira dizemos para o TS que nossa função irá receber em suas propriedades um objeto do tipo `Cordinates.`
+
+Assim como tipamos o objeto Coordenadas acima, podemos usar o type para criar um alias para qualquer tipo que será reutilizado, não apenas para objetos.
+
+Por exemplo, um alias de tipo pode nomear um tipo de união:
+
+![](assets/img/aliastypeunion.png)
+
+Vale lembrar que alias são apenas alias, são apelidos e nada mais.
