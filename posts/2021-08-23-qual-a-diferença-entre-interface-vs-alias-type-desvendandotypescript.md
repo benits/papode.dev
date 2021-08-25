@@ -16,3 +16,11 @@ Quando conheci o TypesScript nas minhas noites de estudo a dentro, percebi que h
 Varios dos videos que assisti e artigos que li eram diferentes, uns usavam type para tudo, outros interface para tudo e outros que curti bastante mesclavam as duas maneira criavam algumas definições de quando usar um ou outro e até faziam sentido. Porem eu queria mais, queria realmente entender o proposito de `types` e `interface`. 
 
 Então eu fiz uma pesquisa e aqui vou relatar a minha visão de cada um e quando usa-los.
+
+De acordo com a documentação oficial do typescript:
+
+`type:` Que na verdade é um alias type, ou seja quando criamos uma tipagem de algo utilizando type, estamos na verdade criando um alias dos tipos para que tenhamos tipagens reutilizaveis.
+
+Por exemplo:
+
+![](assets/img/carbon.png)
