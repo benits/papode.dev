@@ -5,15 +5,15 @@ const links = [
   },
   {
     label: "Linkedin",
-    url: "https://www.linkedin.com/in/benites-amorim/",
+    url: "https://www.linkedin.com/in/omatheusbenites",
   },
   {
     label: "Twitter",
-    url: "https://twitter.com/papoddev",
+    url: "https://twitter.com/omatheusbenites",
   },
   {
     label: "Youtube",
-    url: "https://www.youtube.com/channel/UCFy-US4vCX_1TQt0Z1n6guA",
+    url: "https://www.youtube.com/c/omatheusbenites",
   },
 ]
 
