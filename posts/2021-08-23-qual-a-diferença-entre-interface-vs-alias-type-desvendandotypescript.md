@@ -39,19 +39,19 @@ printCoord({ latitude: -24.4647222, longitude: -49.067496 });
 
 Vamos entender o que aconteceu no código acima 👆, primeiro criamos um `alias type Coordinates` tipando o objeto coordenadas e em seguida chamamos nosso `alias type Coordinates`  para tipar as props que nossa função recebe. Dessa maneira dizemos para o TS que nossa função irá receber em suas propriedades um objeto do tipo `Coordinates.`
 
-Assim como tipamos o objeto Coordenadas acima, podemos usar o type para criar um alias para qualquer tipo que será reutilizado, não apenas para objetos.
+Assim como tipamos o objeto Coordenadas acima, podemos usar o `type` para criar um alias para qualquer tipo que será reutilizado, não apenas para objetos.
 
-Por exemplo, um alias de tipo pode nomear um union type:
+Por exemplo, um alias de tipo pode nomear um union `type`:
 
 ```typescript
 type ID = number | string;
 ```
 
-Vale lembrar que alias são apenas alias, são apelidos e nada mais e tudo isso que estou te falando aqui, está na documentação então não é uma novidade.
+Vale lembrar que aliás são apenas alias, são apelidos e nada mais e tudo isso que estou te falando aqui, está na documentação então não é uma novidade.
 
-Você não pode usar alias type para criar “versões” diferentes do mesmo tipo. Quando você usa o alias, é exatamente como se você tivesse escrito o tipo de alias type. 
+Você não pode usar alias `type` para criar “versões” diferentes do mesmo tipo. Quando você usa o alias, é exatamente como se você tivesse escrito o tipo de alias `type`. 
 
-`interface:` Uma interface é uma maneira de descrever uma forma de dados por exemplo, funciona bem parecido com o alias type, como você pode ver no bloco de código abaixo :
+`interface:` Uma interface é uma maneira de descrever uma forma de dados, por exemplo um objeto, funciona bem parecido com o alias `type`, como você pode ver no bloco de código abaixo :
 
 ```typescript
 interface Coordinates = {
@@ -68,7 +68,7 @@ const printCoord = (coordinates: Coordinates) => {
 printCoord({ latitude: -24.4647222, longitude: -49.067496 });
 ```
 
-Ahh, você tem a liberdade mesclar o uso dos dois, alias type e interface se necessario. Ambos suportam a extensão de outras interfaces e tipos. Os tipos fazem isso através da interseção de tipos, enquanto interfaces possuem uma palavra-chave o `extends`.
+Ahh, você tem a liberdade mesclar o uso dos dois, alias `type` e `interface` se necessario. Ambos suportam a extensão de outras interfaces e tipos. Os tipos fazem isso através da interseção de tipos, enquanto interfaces possuem uma palavra-chave o `extends`.
 
 ```typescript
 type TipoPassaro = {
@@ -95,7 +95,7 @@ let coruja: Coruja = { asas: 2, noturno: true };
 let galinha: Galinha = { asas: 2, colorido: false, voa: false };
 ```
 
-Outro pronto é se caso nós precisamos adicionar ou alterar campos em nossas definições, usando interface podemos fazer isso tranquilamente, pois interface são abertas isso significa que você pode estender a uma interface apenas re-declarando ela. Porém com alias type isso já não é possível os types são fechados, isso significa que eles não podem ser alterados fora da própria declaração, não podemos ter aliás types duplicados em nossos projetos, então se declararmos dois alias type com mesmo nome receberemos um erro do TS.
+Outro pronto é se caso nós precisamos adicionar ou alterar campos em nossas definições, usando interface podemos fazer isso tranquilamente, pois interface são abertas isso significa que você pode estender a uma interface apenas re-declarando ela. Porém com alias `type` isso já não é possível os types são fechados, isso significa que eles não podem ser alterados fora da própria declaração, não podemos ter aliás types duplicados em nossos projetos, então se declararmos dois alias `type` com mesmo nome receberemos um erro do TS.
 
 Como você verá no exemplo abaixo:
 
@@ -171,8 +171,10 @@ export class GetUserPermissions implements IUseCase<TUserPermission[]> {
 
 👆 No exemplo acima, quando chamarmos GetUserPermissions.call() receberemos uma promessa de um array do tipo TUserPermission.
 
+> Você pode aprender mais sobre tipos no typescript [neste link](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html);
+
 Bom, espero ter conseguido ajudar você em algum ponto, caso tenha dúvidas ou queria discutir mais sobre o assunto estou a disposição, pode comentar aqui em baixo ou me chamar no linkedin.
 
 > Que a força do código esteja com você;
 
-Até a proxima 😁.
+Até a próxima 😁.
