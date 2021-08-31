@@ -145,3 +145,32 @@ A minha conclusão de quando usar interface VS type é que "Depende", o que voce
 Essas dentre outras perguntas vai nos ajudar a decidir quando usar uma ou outra. Mas sempre de preferencia para interface pois essa declaração nos da suporte melhor em caso de erro.
 
 Algo que me ajudou a mim e meu time a nos organizar em relação a isso, foi o seguinte:
+
+* se precisamos declarar os tipos de uma classe e seus metodos utilizamos interface;
+* se precisamos declarar os tipo das props de uma função usamos alias type;
+* se precisar criar uma definiçao de tipo que será extendida por algo, nós usamos interface;
+* se estamos criando um generic type para alguma funcionalidade, usamos interface. por exemplo:
+
+```typescript
+// T = é o tipo de retorno da promessa de call
+// P = é o tipo dos parametros de call
+export interface IUseCase<T, P> {
+  call: (arg?: P) => Promise<T>;
+}
+// em seguida a classe extends IUseCase;
+// Por exemplo:
+export class GetUserPermissions implements IUseCase<TUserPermission[]> {
+  constructor(private readonly ApiReposiory: IApiRepository) {}
+
+  call() {
+    return this.ApiReposiory.getUserPermissions();
+  }
+}
+
+```
+
+No exemplo acima, quando chamarmos GetUserPermissions.call() receberemo uma promessa de um array do tipo TUserPermission.
+
+Bom, espero ter conseguido ajudar você em algum ponto, caso tenha duvidas ou queria discutir mais sobre o assunto estou a disposição, pode comentar aqui em baixo ou me chamar no linkedin.
+
+> Que a força do codigo esteja com você;
