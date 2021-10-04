@@ -1,7 +1,8 @@
 ---
 title: "CSS: Entendendo os pseudo-elements"
-description: Um pseudo-elemento CSS é uma palavra-chave adicionada a um seletor
-  que permite que você estilize uma parte específica do elemento selecionado.
+description: Um pseudo-element CSS é uma palavra-chave adicionada a um seletor
+  CSS que permite que você defina um estilo de uma parte específica do elemento
+  HTML selecionado.
 date: 2021-10-04 05:07:11
 thumbnail: assets/img/css-pseudo-elements.jpg
 category: CSS
@@ -9,4 +10,14 @@ background: "#2DA0C3"
 ---
 Fala Dev beleza, tudo bem com você?
 
-Hoje vamos entender como funcionam os pseudo-elements do CSS e saber
+Hoje vamos entender como funcionam os `pseudo-elements` do CSS e saber como esses carinhas podem nos ajudar no dia a dia como um dev front end. 
+
+## Primeiramente vamos recapitular o que é CSS?
+
+Bom quando criamos um web site utilizamos HTML para a estrutura e o CSS para estilizar essa estrutura. CSS (Cascading Style Sheets) que traduzindo literalmente é Folhas de Estilo em Cascata, é uma linguagem utilizada para estilizar elementos escritos em linguagem de marcação de texto com `HTML, XML` ou `XHTML`. Isso envolve conceitos como cores, fontes e o controle total do layout dos elementos `HTML`.
+
+Bom agora que relembramos o que é CSS vamos ao que realmente interessa.
+
+## O que são pseudo-elements no CSS?
+
+Selecionar a área que antecede o conteúdo de um elemento adicionando a ela texto ou imagens, ou estilizar apenas a primeira linha de um elemento de texto são apenas algumas das possibilidades criadas por esse recurso.
