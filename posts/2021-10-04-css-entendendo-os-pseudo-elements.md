@@ -75,8 +75,8 @@ p::first-line {
 }
 ```
 
-Com esse CSS nosso paragrafo ficara desta maneira:
+Com esse CSS nosso paragrafo ficará desta maneira:
 
-
+![](assets/img/first-letter-first-line.png)
 
 Use sua criatividade para utilizar os pseudo-elements da melhor maneira.
