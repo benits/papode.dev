@@ -194,12 +194,10 @@ Isso distingue pseudo-class de pseudo-elements. A maioria dos navegadores suport
   }
   ```
 
-  Eu poderia escrever sobre cada um desses pseudo elements aqui mas a documentação por si só já é excelente, não tem porque eu refazer a roda kkk, então para conhecer cada um desses elementos. Basta clicar no nome dele acima que você será redirecionado para a documentação oficial de cada pseudo-element.
+  Eu poderia escrever sobre cada um desses pseudo elementos aqui mas a documentação por si só já é excelente, não tem porque eu refazer a roda kkk, então para conhecer cada um desses elementos. Basta clicar no nome dele acima que você será redirecionado para a documentação oficial de cada pseudo-element.
 
   fonte: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements;
 
   Bom por hoje é só galera, vejo vocês a próxima;
 
   > Que a força do código esteja com você!
-
-  <!--EndFragment-->
