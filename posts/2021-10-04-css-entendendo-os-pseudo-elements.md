@@ -38,3 +38,7 @@ p::first-letter {
 Então, com esse estilo nosso paragrafo ficará assim:
 
 ![](assets/img/capturar.png)
+
+Bem fácil né? O massa disso tudo é a quantidade de coisas diferentes que podemos fazer apenas com CSS.
+
+## Pseudo-elements sintax
