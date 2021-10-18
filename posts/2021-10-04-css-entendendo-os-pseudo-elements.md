@@ -125,3 +125,12 @@ Isso distingue pseudo-class de pseudo-elements. A maioria dos navegadores suport
 ### ::after ou :after
 
 No CSS `::after ou :after ` cria um pseudo elemento que é o ultimo filho do elemento HTML selecionado, muitas vezes esse pseudo-element é utilizado para adicionar e/ou melhorar o UX/UI de um elemento HTML com a propriedade `content.` Por exemplo:
+
+```
+/* Adiciona uma seta após os links */
+a::after {
+  content: "→";
+}
+```
+
+Você pode também adiciona icones ao content do `::after`
