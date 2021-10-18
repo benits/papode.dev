@@ -22,6 +22,8 @@ Bom agora que relembramos o que é CSS vamos ao que realmente interessa.
 
 Um pseudo-element CSS é uma palavra-chave adicionada a um seletor CSS que permite definir o estilo de uma parte específica do elemento HTML selecionado ou estilizar apenas a primeira linha de um elemento de texto são apenas algumas das possibilidades criadas por esse recurso.
 
+Um pseudo-element é como adicionar ou direcionar um elemento extra sem ter que adicionar mais HTML.
+
 Por exemplo se em um cenário tivéssemos um paragrafo e quiséssemos estilizar apenas a primeira letra desse `<p>texto</p>` , nós podemos criar o nosso CSS dessa maneira:
 
 ```css
@@ -42,3 +44,17 @@ Então, com esse estilo nosso paragrafo ficará assim:
 Bem fácil né? O massa disso tudo é a quantidade de coisas diferentes que podemos fazer apenas com CSS.
 
 ## Pseudo-elements sintax
+
+No geral você pode utilizar os pseudo-elements dessa maneira:
+
+```css
+seletor::pseudo-elemento {
+  propriedade: valor;
+}
+```
+
+Você pode utilizar apenas um pseudo-element em um seletor. Ele deve aparecer depois da declaração de um elemento simples.
+
+É semelhante a instruções de estilo normais, mas com dois-pontos para indicar a parte específica dos elementos contidos no seletor que você deseja estilizar.
+
+## Conheça todos os pseudo-elements
