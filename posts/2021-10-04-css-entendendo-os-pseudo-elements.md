@@ -27,11 +27,14 @@ Por exemplo se em um cenário tivéssemos um paragrafo e quiséssemos estilizar 
 ```css
 /* A primeira letra de todo elemento <p>. */
 p::first-letter {
-  color: blue;
-  float: left;
+  color: red;
   font-size: 2.6em;
   font-weight: bold;
   line-height: 1;
   margin-inline-end: 0.2rem;
 }
 ```
+
+Então, com esse estilo nosso paragrafo ficará assim:
+
+![](assets/img/capturar.png)
