@@ -104,33 +104,44 @@ Em Geral, os dois pontos devem ser usados duas vezes  (`::`)  ao invés de um
 
 Isso distingue pseudo-class de pseudo-elements. A maioria dos navegadores suportam ambas sintax para os pseudo-elements.
 
+* ``[`::after (:after)`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::after)`: `cria um pseudo-element que é o último filho do elemento HTML selecionado. Geralmente é usado para adicionar conteúdo estético a um elemento com a propriedade `content`. Por exemplo: 
+
+  ```css
+  /* Adiciona esta seta depois de todos os links */
+  a::after {
+    content: "→";
+  }
+  ```
+* ``[`::backdrop`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::backdrop)` :`é uma caixa do tamanho da janela de visualização que é renderizada imediatamente abaixo de qualquer elemento sendo apresentado no modo de tela inteira. Isso inclui os dois elementos que foram colocados no modo de tela inteira usando a [API Fullscreen](https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API) e os elementos.**`::backdrop`** [](https://developer.mozilla.org/en-US/docs/Web/CSS)[](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)[](https://developer.mozilla.org/en-US/docs/Glossary/Viewport)[](https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API)[`<dialog>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)`.`
+
+  ```css
+  /* Backdrop só é exibido quando a caixa de diálogo é aberta com dialog.showModal() */
+  dialog::backdrop {
+    background: rgba(255,0,0,.25);
+  }
+  ```
+* ``[`::before (:before)`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)`: `cria um pseudo-element que é o primeiro filho do elemento HTML selecionado. Geralmente é usado para adicionar conteúdo estético a um elemento com a propriedade `content`. Por exemplo: 
+
+  ```css
+  /* adiciona um coração antes de todos os links */
+  a::before {
+    content: "♥";
+  }
+  ```
+* ``[`::cue-region (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::cue-region)` `[`(experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::grammar-error)`: `corresponde [às](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API "WebVTT") sugestões [WebVTT](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API "WebVTT") em um elemento selecionado. Isso pode ser usado para [estilizar legendas e outras dicas](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API#styling_webtt_cues) na mídia com faixas VTT.**`::cue-region.`** Por exemplo: 
 
 
-* `::after (:after)`
-* `::backdrop`
-* `::before (:before)`
-* `::cue-region (en-US)`
-* `::cue (en-US)`
-* `::first-letter (:first-letter)`
-* `::first-line (:first-line)`
-* `::grammar-error (en-US) (experimental)`
-* `::marker (en-US) (experimental)`
-* `::part() (en-US) (experimental)`
-* `::placeholder (en-US)`
-* `::selection`
-* `::slotted() (en-US)`
-* `::spelling-error (en-US) (experimental)`
-* `::target-text (en-US)`
 
-### ::after ou :after
+* ``[`::cue (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::cue)``
+* ``[`::first-letter (:first-letter)`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::first-letter)``
+* ``[`::first-line (:first-line)`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::first-line)``
+* ``[`::grammar-error (en-US) (experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::grammar-error)``
+* ``[`::marker (en-US) (experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::marker)``
+* ``[`::part() (en-US) (experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::part)``
+* ``[`::placeholder (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder)``
+* ``[`::selection`](https://developer.mozilla.org/en-US/docs/Web/CSS/::selection)``
+* ``[`::slotted() (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::slotted)``
+* ``[`::spelling-error (en-US) (experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::spelling-error)``
+* ``[`::target-text (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::target-text)``
 
-No CSS `::after ou :after ` cria um pseudo elemento que é o ultimo filho do elemento HTML selecionado, muitas vezes esse pseudo-element é utilizado para adicionar e/ou melhorar o UX/UI de um elemento HTML com a propriedade `content.` Por exemplo:
-
-```
-/* Adiciona uma seta após os links */
-a::after {
-  content: "→";
-}
-```
-
-Você pode também adiciona icones ao content do `::after`
+Eu poderia escrever sobre cada um desses pseudo elements aqui mas a documentação por si só já é excelente, não tem porque eu refazer a roda kkk, então para conhecer cada um desses elements. Basta clicar no nome dele acima que você será redirecionado para a doc oficial de cada pseudo-element.
