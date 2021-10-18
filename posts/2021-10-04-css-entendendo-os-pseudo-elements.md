@@ -112,7 +112,7 @@ Isso distingue pseudo-class de pseudo-elements. A maioria dos navegadores suport
     content: "→";
   }
   ```
-* ``[`::backdrop`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::backdrop)` :`é uma caixa do tamanho da janela de visualização que é renderizada imediatamente abaixo de qualquer elemento sendo apresentado no modo de tela inteira. Isso inclui os dois elementos que foram colocados no modo de tela inteira usando a [API Fullscreen](https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API) e os elementos.**`::backdrop`** [](https://developer.mozilla.org/en-US/docs/Web/CSS)[](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)[](https://developer.mozilla.org/en-US/docs/Glossary/Viewport)[](https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API)[`<dialog>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)`.`
+* ``[`::backdrop`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::backdrop)` :`é uma caixa do tamanho da janela de visualização que é renderizada imediatamente abaixo de qualquer elemento sendo apresentado no modo de tela inteira. Isso inclui os dois elementos que foram colocados no modo de tela inteira usando a [API Fullscreen](https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API) e os elementos. [](https://developer.mozilla.org/en-US/docs/Web/CSS)Por exemplo:
 
   ```css
   /* Backdrop só é exibido quando a caixa de diálogo é aberta com dialog.showModal() */
@@ -128,14 +128,48 @@ Isso distingue pseudo-class de pseudo-elements. A maioria dos navegadores suport
     content: "♥";
   }
   ```
-* ``[`::cue-region (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::cue-region)` `[`(experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::grammar-error)`: `corresponde [às](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API "WebVTT") sugestões [WebVTT](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API "WebVTT") em um elemento selecionado. Isso pode ser usado para [estilizar legendas e outras dicas](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API#styling_webtt_cues) na mídia com faixas VTT.**`::cue-region.`** Por exemplo: 
+* ``[`::cue-region (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::cue-region)` `[`(experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::grammar-error)`: `corresponde [às](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API "WebVTT") sugestões [WebVTT](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API "WebVTT") em um elemento selecionado. Isso pode ser usado para [estilizar legendas e outras dicas](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API#styling_webtt_cues) na mídia com faixas VTT.Por exemplo: 
+
+  ```css
+  ::cue-region {
+    color: yellow;
+    font-weight: bold;
+  }
+  ```
+* ``[`::cue (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::cue)`: `corresponde [às](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API) sugestões [WebVTT](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API) em um elemento selecionado. Isso pode ser usado para [estilizar legendas e outras dicas](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API#styling_webtt_cues) na mídia com faixas VTT. Por exemplo:
+
+  ```css
+  ::cue {
+    color: yellow;
+    font-weight: bold;
+  }
+  ```
+* ``[`::first-letter (:first-letter)`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::first-letter)`: `aplica estilos à primeira letra da primeira linha de um [elemento de nível de bloco](https://developer.mozilla.org/en-US/docs/Web/CSS/Visual_formatting_model#block-level_elements_and_block_boxes) , mas apenas quando não precedido por outro conteúdo (como imagens ou tabelas embutidas). Por exemplo:
+
+  ```
+  /* Seleciona a primeira letra de uma tag <p> */
+  p::first-letter {
+    font-size: 130%;
+  }
+  ```
+* ``[`::first-line (:first-line)`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::first-line)`: `aplica estilos à primeira linha de um [elemento de nível de bloco](https://developer.mozilla.org/en-US/docs/Web/CSS/Visual_formatting_model#block-level_elements_and_block_boxes) . Observe que o comprimento da primeira linha depende de muitos fatores, incluindo a largura do elemento, a largura do documento e o tamanho da fonte do texto. Por exemplo: 
+
+  ```css
+  /* Seleciona a primeira linha de uma tag <p> */
+  p::first-line {
+    color: red;
+  }
+  ```
+* ``[`::grammar-error (en-US) (experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::grammar-error)`: `representa um segmento de texto que o agente do usuário sinalizou como gramaticalmente incorreto. Por exemplo:
+
+  ```css
+  ::grammar-error  {
+    text-decoration: underline red;
+    color: red;
+  } 
+  ```
 
 
-
-* ``[`::cue (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::cue)``
-* ``[`::first-letter (:first-letter)`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::first-letter)``
-* ``[`::first-line (:first-line)`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::first-line)``
-* ``[`::grammar-error (en-US) (experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::grammar-error)``
 * ``[`::marker (en-US) (experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::marker)``
 * ``[`::part() (en-US) (experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::part)``
 * ``[`::placeholder (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder)``
