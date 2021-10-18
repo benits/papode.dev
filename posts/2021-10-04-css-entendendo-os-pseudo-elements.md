@@ -59,7 +59,7 @@ Você pode utilizar apenas um pseudo-element em um seletor. Ele deve ser inserid
 
 ## Pseudo-elements em classes HTML
 
-Pseudo-elementos podem ser combinados com classes HTML: 
+Pseudo-elements podem ser combinados com classes HTML: 
 
 ```css
 p.my-intro::first-letter {
@@ -68,7 +68,7 @@ p.my-intro::first-letter {
 }
 ```
 
-O exemplo acima exibirá a primeira letra dos parágrafos com class="my-intro", em verde e em um tamanho 200% maior.
+O exemplo acima exibirá a primeira letra dos parágrafos com `class="my-intro"`, em verde e em um tamanho 200% maior.
 
 Com esse estilo podemos ver algo assim:
 
@@ -78,7 +78,7 @@ Com esse estilo podemos ver algo assim:
 
 Vários pseudo-elements também podem ser combinados.
 
-No exemplo a seguir, a primeira letra de um parágrafo será vermelha, em um tamanho de fonte xx-large. O resto da primeira linha será azul e em small-caps. O resto do parágrafo terá o tamanho e cor da fonte padrão:
+No exemplo a seguir, a primeira letra de um parágrafo será vermelha, em um tamanho de fonte `xx-large`. O resto da primeira linha será azul e em `small-caps`. O resto do parágrafo terá o tamanho e cor da fonte padrão:
 
 ```css
 p::first-letter {
@@ -128,7 +128,7 @@ Isso distingue pseudo-class de pseudo-elements. A maioria dos navegadores suport
     content: "♥";
   }
   ```
-* ``[`::cue-region (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::cue-region)``[`(experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::grammar-error)`:`corresponde [às](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API "WebVTT") sugestões [WebVTT](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API "WebVTT") em um elemento selecionado. Isso pode ser usado para [estilizar legendas e outras dicas](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API#styling_webtt_cues) na mídia com faixas VTT. Por exemplo: 
+* ``[`::cue-region (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::cue-region)``[`(experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::grammar-error)`:`corresponde às sugestões [WebVTT](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API "WebVTT") em um elemento selecionado. Isso pode ser usado para [estilizar legendas e outras dicas](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API#styling_webtt_cues) na mídia com faixas VTT. Por exemplo: 
 
   ```css
   ::cue-region {
@@ -136,7 +136,7 @@ Isso distingue pseudo-class de pseudo-elements. A maioria dos navegadores suport
     font-weight: bold;
   }
   ```
-* ``[`::cue (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::cue)`:`corresponde [às](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API) sugestões [WebVTT](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API) em um elemento selecionado. Isso pode ser usado para [estilizar legendas e outras dicas](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API#styling_webtt_cues) na mídia com faixas VTT. Por exemplo:
+* ``[`::cue (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::cue)`:`corresponde às sugestões [WebVTT](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API) em um elemento selecionado. Isso pode ser usado para [estilizar legendas e outras dicas](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API#styling_webtt_cues) na mídia com faixas VTT. Por exemplo:
 
   ```css
   ::cue {
@@ -196,4 +196,8 @@ Isso distingue pseudo-class de pseudo-elements. A maioria dos navegadores suport
 
 Eu poderia escrever sobre cada um desses pseudo elements aqui mas a documentação por si só já é excelente, não tem porque eu refazer a roda kkk, então para conhecer cada um desses elementos. Basta clicar no nome dele acima que você será redirecionado para a documentação oficial de cada pseudo-element.
 
-fonte: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+fonte: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements;
+
+Bom por hoje é só galera, vejo vocês a próxima;
+
+> Que a força do código esteja com você!
