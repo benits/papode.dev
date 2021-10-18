@@ -53,8 +53,30 @@ seletor::pseudo-elemento {
 }
 ```
 
-Você pode utilizar apenas um pseudo-element em um seletor. Ele deve aparecer depois da declaração de um elemento simples.
+Você pode utilizar apenas um pseudo-element em um seletor. Ele deve ser inserido depois da declaração de um elemento simples.
 
 É semelhante a instruções de estilo normais, mas com dois-pontos para indicar a parte específica dos elementos contidos no seletor que você deseja estilizar.
 
-## Conheça todos os pseudo-elements
+## Multiple Pseudo-elements
+
+Vários pseudo-elements também podem ser combinados.
+
+No exemplo a seguir, a primeira letra de um parágrafo será vermelha, em um tamanho de fonte xx-large. O resto da primeira linha será azul e em small-caps. O resto do parágrafo terá o tamanho e cor da fonte padrão:
+
+```css
+p::first-letter {
+  color: purple;
+  font-size: xx-large;
+}
+
+p::first-line {
+  color: red;
+  font-variant: small-caps;
+}
+```
+
+Com esse CSS nosso paragrafo ficara desta maneira:
+
+
+
+Use sua criatividade para utilizar os pseudo-elements da melhor maneira.
