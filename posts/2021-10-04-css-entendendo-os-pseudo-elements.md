@@ -1,5 +1,5 @@
 ---
-title: "CSS: Entendendo os pseudo-elements"
+title: "CSS: Entendendo os pseudo-elements do CSS"
 description: Um pseudo-element CSS é uma palavra-chave adicionada a um seletor
   CSS que permite que você defina um estilo de uma parte específica do elemento
   HTML selecionado.
@@ -39,7 +39,7 @@ p::first-letter {
 
 Então, com esse estilo nosso paragrafo ficará assim:
 
-![](assets/img/capturar.png)
+![first-letter](assets/img/capturar.png "first-letter")
 
 Bem fácil né? O massa disso tudo é a quantidade de coisas diferentes que podemos fazer apenas com CSS.
 
@@ -56,6 +56,14 @@ seletor::pseudo-elemento {
 Você pode utilizar apenas um pseudo-element em um seletor. Ele deve ser inserido depois da declaração de um elemento simples.
 
 É semelhante a instruções de estilo normais, mas com dois-pontos para indicar a parte específica dos elementos contidos no seletor que você deseja estilizar.
+
+## Pseudo-elements em classes HTML
+
+Pseudo-elementos podem ser combinados com classes HTML: 
+
+
+
+O exemplo acima exibirá a primeira letra dos parágrafos com class="my-intro", em verde e em um tamanho 200% maior.
 
 ## Multiple Pseudo-elements
 
@@ -77,6 +85,6 @@ p::first-line {
 
 Com esse CSS nosso paragrafo ficará desta maneira:
 
-![](assets/img/first-letter-first-line.png)
+![first-letter-first-line](assets/img/first-letter-first-line.png "first-letter-first-line")
 
 Use sua criatividade para utilizar os pseudo-elements da melhor maneira.
