@@ -184,12 +184,16 @@ Isso distingue pseudo-class de pseudo-elements. A maioria dos navegadores suport
     font-size: 1.5em;
   }
   ```
-* `::placeholder (en-US)https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder)`
-* ``::selection`](https://developer.mozilla.org/en-US/docs/Web/CSS/::selection)``
-* ``::slotted() (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::slotted)``
-* ``::spelling-error (en-US) (experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::spelling-error)``
-* ``::target-text (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::target-text)``
+* ``[`::placeholder`](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder)`: `representa o texto do placeholder em um elemento <input> ou <textarea>. Exemplo: 
 
-Eu poderia escrever sobre cada um desses pseudo elements aqui mas a documentação por si só já é excelente, não tem porque eu refazer a roda kkk, então para conhecer cada um desses elements. Basta clicar no nome dele acima que você será redirecionado para a doc oficial de cada pseudo-element.
+  ```css
+  input::placeholder {
+    color: red;
+    font-size: 1.2em;
+    font-style: italic;
+  }
+  ```
+
+Eu poderia escrever sobre cada um desses pseudo elements aqui mas a documentação por si só já é excelente, não tem porque eu refazer a roda kkk, então para conhecer cada um desses elementos. Basta clicar no nome dele acima que você será redirecionado para a documentação oficial de cada pseudo-element.
 
 fonte: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
