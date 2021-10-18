@@ -168,13 +168,27 @@ Isso distingue pseudo-class de pseudo-elements. A maioria dos navegadores suport
     color: red;
   } 
   ```
-* ``[`::marker (en-US) (experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::marker)``
-* ``[`::part() (en-US) (experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::part)``
-* ``[`::placeholder (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder)``
-* ``[`::selection`](https://developer.mozilla.org/en-US/docs/Web/CSS/::selection)``
-* ``[`::slotted() (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::slotted)``
-* ``[`::spelling-error (en-US) (experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::spelling-error)``
-* ``[`::target-text (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::target-text)``
+* ``[`::marker (en-US) (experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::marker): seleciona a caixa do marcador de um item da lista, que normalmente contém um marcador ou número. Funciona em qualquer elemento ou pseudo-elemento definido como [`display: list-item`](https://developer.mozilla.org/en-US/docs/Web/CSS/display), como os elementos e [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li) and [`<summary>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary)`.` Exemplo: 
+
+  ```
+  <ul>
+    <li>Peaches</li>
+    <li>Apples</li>
+    <li>Plums</li>
+  </ul>
+  ```
+
+  ```css
+  ul li::marker {
+    color: red;
+    font-size: 1.5em;
+  }
+  ```
+* `::placeholder (en-US)https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder)`
+* ``::selection`](https://developer.mozilla.org/en-US/docs/Web/CSS/::selection)``
+* ``::slotted() (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::slotted)``
+* ``::spelling-error (en-US) (experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::spelling-error)``
+* ``::target-text (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::target-text)``
 
 Eu poderia escrever sobre cada um desses pseudo elements aqui mas a documentação por si só já é excelente, não tem porque eu refazer a roda kkk, então para conhecer cada um desses elements. Basta clicar no nome dele acima que você será redirecionado para a doc oficial de cada pseudo-element.
 
