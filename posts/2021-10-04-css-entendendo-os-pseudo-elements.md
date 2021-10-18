@@ -61,9 +61,18 @@ Você pode utilizar apenas um pseudo-element em um seletor. Ele deve ser inserid
 
 Pseudo-elementos podem ser combinados com classes HTML: 
 
-
+```css
+p.my-intro::first-letter {
+  color: #ff0000;
+  font-size: 200%;
+}
+```
 
 O exemplo acima exibirá a primeira letra dos parágrafos com class="my-intro", em verde e em um tamanho 200% maior.
+
+Com esse estilo podemos ver algo assim:
+
+![](assets/img/classe-html.png)
 
 ## Multiple Pseudo-elements
 
@@ -88,3 +97,23 @@ Com esse CSS nosso paragrafo ficará desta maneira:
 ![first-letter-first-line](assets/img/first-letter-first-line.png "first-letter-first-line")
 
 Use sua criatividade para utilizar os pseudo-elements da melhor maneira.
+
+## Conhecendo todos pseudo-elements
+
+* `::after (:after)`
+* `::backdrop`
+* `::before (:before)`
+* `::cue-region (en-US)`
+* `::cue (en-US)`
+* `::first-letter (:first-letter)`
+* `::first-line (:first-line)`
+* `::grammar-error (en-US) (experimental)`
+* `::marker (en-US) (experimental)`
+* `::part() (en-US) (experimental)`
+* `::placeholder (en-US)`
+* `::selection`
+* `::slotted() (en-US)`
+* `::spelling-error (en-US) (experimental)`
+* `::target-text (en-US)`
+
+``
