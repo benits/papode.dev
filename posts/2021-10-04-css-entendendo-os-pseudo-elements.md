@@ -22,4 +22,16 @@ Bom agora que relembramos o que é CSS vamos ao que realmente interessa.
 
 Um pseudo-element CSS é uma palavra-chave adicionada a um seletor CSS que permite definir o estilo de uma parte específica do elemento HTML selecionado ou estilizar apenas a primeira linha de um elemento de texto são apenas algumas das possibilidades criadas por esse recurso.
 
-Por exemplo se em um cenário tivéssemos um paragrafo e quiséssemos estilizar apenas a primeira letra desse `<p>texto</p>` , nós podiuamos criar o nosso CSS dessa maneira
+Por exemplo se em um cenário tivéssemos um paragrafo e quiséssemos estilizar apenas a primeira letra desse `<p>texto</p>` , nós podemos criar o nosso CSS dessa maneira:
+
+```css
+/* A primeira letra de todo elemento <p>. */
+p::first-letter {
+  color: blue;
+  float: left;
+  font-size: 2.6em;
+  font-weight: bold;
+  line-height: 1;
+  margin-inline-end: 0.2rem;
+}
+```
