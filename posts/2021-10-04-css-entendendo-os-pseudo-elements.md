@@ -128,7 +128,7 @@ Isso distingue pseudo-class de pseudo-elements. A maioria dos navegadores suport
     content: "♥";
   }
   ```
-* `::cue-region (en-US)`[`(experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::cue-region)`:`corresponde às sugestões [WebVTT](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API "WebVTT") em um elemento selecionado. Isso pode ser usado para [estilizar legendas e outras dicas](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API#styling_webtt_cues) na mídia com faixas VTT. Por exemplo: 
+* ``[`::cue-region (en-US)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::cue-region)``[`(experimental)`](https://developer.mozilla.org/en-US/docs/Web/CSS/::cue-region)`:`corresponde às sugestões [WebVTT](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API "WebVTT") em um elemento selecionado. Isso pode ser usado para [estilizar legendas e outras dicas](https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API#styling_webtt_cues) na mídia com faixas VTT. Por exemplo: 
 
   ```css
   ::cue-region {
