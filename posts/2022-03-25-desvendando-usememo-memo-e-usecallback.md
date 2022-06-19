@@ -1,6 +1,5 @@
 ---
-title: useMemo, React.memo e useCallback Melhorarando a performance de
-  aplicações ReactJS
+title: "useMemo | Melhorarando a performance de aplicações ReactJS #1"
 description: Neste artigo vamos conversar sobre como aplicar os conceitos de
   memoization e melhorar a performance de nossas aplicações React, utilizando
   useMemo, React.memo e useCallback.
@@ -36,3 +35,31 @@ console.log(sum(5,2))
 ```
 
 No bloco de código acima veremos em nosso console o resultado de 5 + 2 que é 7, agora podemos utilizar o hook `useMemo` para cachear o retorno da função sum e garantir que o calculo somente seja processado novamente quando os valores dos parâmetros de entrada forem alterado, economizando assim poder de processamento da aplicação.
+
+Nosso exemplo agora ficaria assim:
+
+```javascript
+const SumComponent = () => {
+  const [number1, setNumber1] = React.useState(0)
+  const [number2, setNumber2] = React.useState(0)
+ 
+  const sumNumbers = React.useMemo(() => {
+    return Number(number1) + Number(number2);
+  }, [number1, number2]);
+  
+  return (
+    <div>
+      <div>Enter a number to sum</div>
+      <input placeholder="number 1" value={number1} onChange={(e) =>
+        setNumber1(e.target.value)}
+      />
+      <input placeholder="number 2" value={number2} onChange={(e) =>
+        setNumber2(e.target.value)}
+      />
+      <div>The sum betweem {number1} and {number2} is {sumNumbers}.</div>
+    </div>
+  )
+}
+```
+
+Alterei um pouco nosso exemplo para se adequar ao contexto do React e agora recebemos os números para soma através de um input onde o usuário pode inserir qualquer valor para efetuar a soma. No exemplo acima a função soma sempre retornara o mesmo resultado a menos que alteremos os números para o calculo.
