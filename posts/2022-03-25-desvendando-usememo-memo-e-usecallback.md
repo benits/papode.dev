@@ -63,3 +63,18 @@ const SumComponent = () => {
 ```
 
 Alterei um pouco nosso exemplo para se adequar ao contexto do React e agora recebemos os números para soma através de um input onde o usuário pode inserir qualquer valor para efetuar a soma. No exemplo acima a função soma sempre retornara o mesmo resultado a menos que alteremos os números para o calculo.
+
+## Na pratica
+
+Para entendermos melhor como isso funciona na pratica vamos criar uma aplicação e ver isso o `useMemo` funcionando ao vivo.
+
+Primeiro vamos rodar em nosso CMD `npx create-react-app.`\
+`npx create-react-app use-memo-na-pratica`
+
+Aguarde o processo finalizar, então podemos ir até nosso projeto criado e iniciar ele.
+
+`cd use-memo-na-pratica && npm run start`
+
+Então teremos uma aplicação React rodando, você verá algo assim ao acessar `http://localhost:3000`:
+
+![](assets/img/captura-de-tela-2022-06-19-135242.png)
