@@ -12,8 +12,8 @@ Fala Dev, tudo bem com você? espero que sim.
 
 Hoje vamos entender melhor como melhorar a performance de nossas aplicações React e evitar re-renderers desnecessários utilizando 3 recursos desta lib maravilhosa o memo, useMemo e useCallback, resumindo vamos entender melhor o conceito de memoization.
 
-Nos ultimos anos nós temos visto como as aplicações frontend tem ficado cada vez mais complexas e tem recebido mais responsabilidades em construções de de software, e adivinha a tendencia é esse movimento aumentar cada vez mais, com isso frontend developers tedem  a aprimorarem cada vez mais seus conhecimentos em performance, gerenciamento de dado, acessibilidade, escalabilidade, padrões de arquitetura e código.
+Nos últimos anos nós temos visto como as aplicações front-end tem ficado cada vez mais complexas e tem recebido mais responsabilidades em construções de software e adivinha só, a tendencia é esse movimento aumentar cada vez mais, com isso front-end developers tendem a aprimorarem mais e mais seus conhecimentos em performance, gerenciamento de dado, acessibilidade, escalabilidade, padrões de arquitetura e código.
 
 ## Memoization
 
-Ok, para continuarmos precisamos entender o conceito de memoization em sua essência. memoization é uma técnica de otimização usada em sua base para acelerar softwares memorizando/armazenando os resultados/dados de chamadas de função e retornando o resultado em cache quando não ocorre uma mudança de valores na entrada ou retorno da função.
+Para continuarmos precisamos entender o conceito de memoization em sua essência. memoization é uma técnica de otimização usada para acelerar softwares memorizando/armazenando os resultados/dados de chamadas de função e retornando o resultado em cache quando não ocorre uma mudança de valores na entrada ou retorno da função.
