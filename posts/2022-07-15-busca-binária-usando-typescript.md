@@ -140,6 +140,4 @@ Pensando em um array de tamanho n, podemos encontrar o numero de tentativas que 
 
 Temos uma maneira de representarmos isso usando matematica, iremos utilizar o Big O Notation que é uma notação especial utilizado para medirmos o quão rapido é nossos algoritmos, posso trazer um artigo sobre isso no futuro.
 
-Traduzindo o que conversamos para a matematica, usaremos o **logaritmo de `n` na base 2**, que ficaria escrito assim **log<sub>2</sub>n**, A função logaritmica cresce muito lentamente compara com a linear, portanto, se `log<sub>2</sub>n = x`, então `n = 2x.`Por exemplo, como `log<sub>2</sub> 128 = 7`, sabemos que `2<sup>7</sup> = 128.`
-
-``
+Traduzindo o que conversamos para a matematica, usaremos o **logaritmo de `n` na base 2**, que ficaria escrito assim **log<sub>2</sub>n**, A função logaritmica cresce muito lentamente compara com a linear, portanto, se `log<sub>2</sub>n = x`, então `n = 2x.`Por exemplo, como `log<sub>2</sub> 128 = 7`, sabemos que `2<sup>7</sup> = 128`
