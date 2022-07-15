@@ -144,4 +144,8 @@ Traduzindo o que conversamos para a matematica, usaremos o **logaritmo de `n` na
 
 Isso facilita e muito o calculo de tempo de execução de um algoritmo de busca binaria, onde n é uma potencia de 2. portante, se n for 128, a busca binaria vai precisar de  no maximo 7 tentativas por que 2<sup>7</sup> = 128.
 
-Em caso que n não seja uma potencia de 2, podemos olhar para a potencia mais baixa. Por exemplo, se tivermos um array com 1.000 elementos, a potencia de 2 abaixo disso é 512, que é igual a 2<sup>9</sup>, então podemos dizer que log<sub>2</sub> 1.000 é igual a um numero maior que 9 e menor que 10, se usarmos uma calculadora 
+Em caso que n não seja uma potencia de 2, podemos olhar para a potencia mais baixa. Por exemplo, se tivermos um array com 1.000 elementos, a potencia de 2 abaixo disso é 512, que é igual a 2<sup>9</sup>, então podemos dizer que log<sub>2</sub> 1.000 é igual a um numero maior que 9 e menor que 10, se usarmos uma calculadora para verificar encontraremos o valor de 9,97, somar 1 a esse valor nos retorna 10,97 arredondando esse numero para baixo teremos o numero 10. Portanto para um array de 1.000 elementos teremos um maximo de 10 tentativas no pior dos casos.
+
+Então é isso pessoal, um pouco do que aprendi sobre busca binaria nos ultimos meses. Sintam-se a vontade para comentar aqui em baixo a sua visão também.
+
+Que a força dos algoritmos esteja com você!
