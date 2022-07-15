@@ -15,8 +15,6 @@ Desculpas a parte, rsrsrs. Hoje vamos conversar um pouco sobre um tópico que es
 
 Ele funciona dividindo repetidamente uma lista ordenada de itens pela metade até 1 única posição que é onde está o item que estamos procurando. Ficou confuso, né? eu sei, vamos entender melhor como isso tudo funciona.
 
-
-
 ## Vamos pensar em um exemplo
 
 Imagine que você tem um dicionário em sua mão, certo? você tem um objetivo encontrar a palavra `"ordenação"` no dicionário, como fazemos isso na vida real?\
@@ -25,3 +23,5 @@ Abrimos o dicionário pela metade, pois sabemos que a letra estará da metade em
 Poderíamos, ir foleando o dicionário até chegarmos na letra "O", porém isso não é eficiente teríamos que passar por centenas de paginas até chegarmos lá, então utilizamos o mesmo método. Pegamos a segunda metade que sobrou e dividimos em dois novamente, vamos fazendo isso até restar um único item que é o que estamos procurando.
 
 A ideia é exatamente essa, dividir para conquistar.
+
+## Busca Simples VS Busca Binária
