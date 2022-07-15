@@ -140,4 +140,8 @@ Pensando em um array de tamanho n, podemos encontrar o numero de tentativas que 
 
 Temos uma maneira de representarmos isso usando matematica, iremos utilizar o Big O Notation que é uma notação especial utilizado para medirmos o quão rapido é nossos algoritmos, posso trazer um artigo sobre isso no futuro.
 
-Traduzindo o que conversamos para a matematica, usaremos o **logaritmo de `n` na base 2**, que ficaria escrito assim **log<sub>2</sub>n**, A função logaritmica cresce muito lentamente compara com a linear, portanto, se `log<sub>2</sub>n = x`, então `n = 2x.`Por exemplo, como `log<sub>2</sub> 128 = 7`, sabemos que `2<sup>7</sup> = 128`
+Traduzindo o que conversamos para a matematica, usaremos o **logaritmo de `n` na base 2**, que ficaria escrito assim **O(log<sub>2</sub>n)**, A função logaritmica cresce muito lentamente compara com a linear, portanto, se log<sub>2</sub>n = x, então n = 2x. Por exemplo, como log<sub>2</sub> 128 = 7, sabemos que 2<sup>7</sup> = 128.
+
+Isso facilita e muito o calculo de tempo de execução de um algoritmo de busca binaria, onde n é uma potencia de 2. portante, se n for 128, a busca binaria vai precisar de  no maximo 7 tentativas por que 2<sup>7</sup> = 128.
+
+Em caso que n não seja uma potencia de 2, podemos olhar para a potencia mais baixa. Por exemplo, se tivermos um array com 1.000 elementos, a potencia de 2 abaixo disso é 512, que é igual a 2<sup>9</sup>, então podemos dizer que log<sub>2</sub> 1.000 é igual a um numero maior que 9 e menor que 10, se usarmos uma calculadora 
