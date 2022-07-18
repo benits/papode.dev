@@ -3,7 +3,7 @@ title: Busca Binária usando Typescript
 description: A busca binária é um algoritmo extremamente eficiente para
   encontrar um elemento em uma lista ordenada de itens.
 date: 2022-07-15 11:13:11
-thumbnail: assets/img/binary_search.jpeg
+thumbnail: assets/img/shearch-binary.png
 category: DEV
 background: "#7D669E"
 ---
