@@ -10,6 +10,7 @@ background: "#7D669E"
 Fala Dev, tudo bem com você? espero que sim!
 
 Bom primeiramente, me desculpe pela demora em postar novos conteúdos para você. Mas olha pelo lado positivo essa demora é justificável, como assim Matheus? é exatamente isso, posso justificar pois eu estava me aprimorando, aprendendo novos conceitos e evoluindo como pessoa. Consequentemente tudo que aprendi será repassado para vocês em forma de conteúdo.
+
 Desculpas a parte, rsrsrs. Hoje vamos conversar um pouco sobre um tópico que estudei recentemente, pois sempre é bom voltarmos a base para solidificar nossos conhecimentos, então afim de fixar mais ainda o que venho aprendendo tentarei explicar para vocês o algoritmo de busca binária.
 
 Ele funciona dividindo repetidamente uma lista ordenada de itens pela metade até 1 única posição que é onde está o item que estamos procurando. Ficou confuso, né? eu sei, vamos entender melhor como isso tudo funciona.
