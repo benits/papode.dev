@@ -7,8 +7,6 @@ thumbnail: assets/img/shearch-binary.png
 category: DEV
 background: "#7D669E"
 ---
-
-
 Fala Dev, tudo bem com você? espero que sim!
 
 Bom primeiramente, me desculpe pela demora em postar novos conteúdos para você. Mas olha pelo lado positivo essa demora é justificável, como assim Matheus? é exatamente isso, posso justificar pois eu estava me aprimorando, aprendendo novos conceitos e evoluindo como pessoa. Consequentemente tudo que aprendi será repassado para vocês em forma de conteúdo.
@@ -27,12 +25,12 @@ Poderíamos, ir foleando o dicionário até chegarmos na letra "O", porém isso 
 
 Vamos fazer uma brincadeira, eu estou pensando em um numero de 1 - 50 e você precisa descobrir qual numero é. Você chuta um numero e eu digo de você chutou muito alto, muito baixo ou se acertou, podemos resolver esse problema de duas maneiras a primeira você pode ir chutando desde o inicio até encontrar o numero que estou pensando, por exemplo:
 
-- Você chuta 1;
-- Eu digo chutou muito baixo;
-- Você chuta 2;
-- Eu digo chutou muito baixo;
-- Você chuta 3;
-- Eu digo chutou muito baixo;
+* Você chuta 1;
+* Eu digo chutou muito baixo;
+* Você chuta 2;
+* Eu digo chutou muito baixo;
+* Você chuta 3;
+* Eu digo chutou muito baixo;
 
 Conseguir ver o problema desse método? caso eu esteja pensando no numero 50 que é o ultimo item da nossa lista, você precisará de 50 tentativas para encontrar o resultado e esse nem é o maior problema. O maior problema é que esse método de busca (Conhecido como **Busca Simples**) aumenta o tempo de resolução e complexidade de acordo com o tamanho da lista.
 
@@ -40,14 +38,14 @@ Se imaginarmos por exemplo que temos uma lista com 1 Milhão de itens, precisar�
 
 Agora vamos para o segundo método, onde usamos busca binaria pra encontrar o numero que estou pensando. Levando em consideração que estou pensando em um numero de 1 - 50:
 
-- Você chuta a metade de 50, no caso 25;
-- Eu digo chutou muito baixo;
-- isso significa que tudo que vem antes de 25 não nos interessa mais, podemos descartar;
-- Agora temos uma lista de números que inicia em 25 e vai até 50, então você pega essa lista de 25 itens e divide pela metade tendo então 12.5 podemos arredondar para 13, isso significa que o próximo numero que você deve chutar é 38;
-- Eu digo chutou muito baixo;
-- isso significa que tudo que vem antes de 38 não nos interessa mais, podemos descartar;
-- sobrou 12 numero na nossa lista, que vai de 39 - 50, dividimos pela metade novamente e temos o numero 6, certo? então nosso próximos chute é 44
-- Eu digo parabéns, você acertou!.
+* Você chuta a metade de 50, no caso 25;
+* Eu digo chutou muito baixo;
+* isso significa que tudo que vem antes de 25 não nos interessa mais, podemos descartar;
+* Agora temos uma lista de números que inicia em 25 e vai até 50, então você pega essa lista de 25 itens e divide pela metade tendo então 12.5 podemos arredondar para 13, isso significa que o próximo numero que você deve chutar é 38;
+* Eu digo chutou muito baixo;
+* isso significa que tudo que vem antes de 38 não nos interessa mais, podemos descartar;
+* sobrou 12 numero na nossa lista, que vai de 39 - 50, dividimos pela metade novamente e temos o numero 6, certo? então nosso próximos chute é 44
+* Eu digo parabéns, você acertou!.
 
 Consegui ver a diferencia na busca simples no pior dos cenários teríamos que percorrer o array item por item até acharmos o numero que estamos procurando, isso poderia levar um total de 50 tentativas.
 
