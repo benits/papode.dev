@@ -140,7 +140,7 @@ Executando o código acima podemos ver no console, essas informações:
 }
 ```
 
-Para nosso algoritmo encontrar o nosso alvo dentro do array que passamos, ele tento 5 vezes ate encontrar o valor alvo. Se estivessemos usando uma busca simples esse valos seria expressivamente maior como voce vera a seguir.
+Para nosso algoritmo encontrar o nosso alvo dentro do array que passamos, ele tentou 5 vezes até encontrar o valor alvo. Se estivessemos usando uma busca simples o número de tentativas seria expressivamente maior como voce vera a seguir.
 
 ```typescript
 const simpleSearch = (array: number[], target: number): object | null => {
@@ -166,7 +166,7 @@ console.log(simpleSearch(array, 18));
 
 ```
 
-Executando o codigo acima podemos ver no console, essas informações:
+Executando o código acima podemos ver no console, essas informações:
 
 ```typescript
 {
@@ -176,7 +176,7 @@ Executando o codigo acima podemos ver no console, essas informações:
 }
 ```
 
-Podemos ver que utilizar a busca simples nesse caso e muito mais demorado e ineficiente que usar a busca binaria, enquanto utilizando a busca binaria precisamos de 5 tentativas para encontrar nosso valor alvo, ja utilizando a busca simples precisamos no melhor cenario de 18 tentativas.
+Podemos ver que utilizar a busca simples nesse caso é mais demorado e ineficiente que usar a busca binária, quando utilizamos a busca binária precisamos de 5 tentativas para encontrar nosso valor alvo, já utilizando a busca simples precisamos no melhor cenario de 18 tentativas e no pior de `n` tentativas, onde `n = array.length`.
 
 O proximo passo agora e entender como calcular a complexidade do nosso algoritmo.
 
