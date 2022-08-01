@@ -96,20 +96,28 @@ const array = [
   25
 ];
 
-const binarySearch = (array: number[], target: number): number | null => {
+const binarySearch = (array: number[], target: number): object | null => {
   let start = 0;
-  let stop = array.length - 1; 
+  let stop = array.length - 1;
   const DIVIDE_IN_HALF = 2;
   const CURRENT_ELEMENT_SIZE = 1;
+  let attempts = 0;
 
   while (start <= stop) {
     let sumBetweenStartAndStop = start + stop;
     let middlePoint = Math.floor(sumBetweenStartAndStop / DIVIDE_IN_HALF);
     let kick = array[middlePoint];
+    attempts++;
 
     if (kick === target) {
-      return middlePoint;
-    } else if (kick > target) {
+      return {
+        method: "Binary Search",
+        position: middlePoint,
+        attempts
+      };
+    }
+
+    if (kick > target) {
       stop = middlePoint - CURRENT_ELEMENT_SIZE;
     } else {
       start = middlePoint + CURRENT_ELEMENT_SIZE;
@@ -121,6 +129,56 @@ const binarySearch = (array: number[], target: number): number | null => {
 
 console.log(binarySearch(array, 18));
 ```
+
+Executando o código acima podemos ver no console, essas informações:
+
+```typescript
+{
+  method: "Binary Search", 
+  position: 17, 
+  attempts: 5
+}
+```
+
+Para nosso algoritmo encontrar o nosso alvo dentro do array que passamos, ele tento 5 vezes ate encontrar o valor alvo. Se estivessemos usando uma busca simples esse valos seria expressivamente maior como voce vera a seguir.
+
+```typescript
+const simpleSearch = (array: number[], target: number): object | null => {
+  let attempts = 0;
+
+  for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    attempts++;
+
+    if (element === target) {
+      return {
+        method: "Simple Search",
+        position: index,
+        attempts
+      };
+    }
+  }
+
+  return null;
+};
+
+console.log(simpleSearch(array, 18));
+
+```
+
+Executando o codigo acima podemos ver no console, essas informações:
+
+```typescript
+{
+  method: "Simple Search", 
+  position: 17, 
+  attempts: 18
+}
+```
+
+Podemos ver que utilizar a busca simples nesse caso e muito mais demorado e ineficiente que usar a busca binaria, enquanto utilizando a busca binaria precisamos de 5 tentativas para encontrar nosso valor alvo, ja utilizando a busca simples precisamos no melhor cenario de 18 tentativas.
+
+O proximo passo agora e entender como calcular a complexidade do nosso algoritmo.
 
 ## Calculando tempo de execução de uma busca binaria
 
